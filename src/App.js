@@ -1,78 +1,73 @@
-import React, { useState } from 'react';
-import { Button, Table, Row, Container } from 'react-bootstrap';
+import React, { useState, useEffect } from 'react';
+import { Container, Button } from 'react-bootstrap';
 import './App.css';
 
-import Category from './data/category-list.json';
-import Partner from './data/partner-list.json';
+import Dash from './pages/Dash';
+import Form from './pages/Form';
 
 function App() {
-  const [cat, setC] = useState('');
-  console.log(cat);
-  const Tr = ({ num, logo, title, link, categories, cat }) => {
-    console.log(title, categories.includes(cat));
-    if (cat === '' || categories.includes(cat)) {
-      return (
-        <tr key={num} className="table-item">
-          <td>{num}</td>
-          <td>
-            <div>
-              <img src={logo} alt="" className="logo" />
-              <a
-                href={link}
-                target="_blank"
-                rel="noreferrer"
-                style={{ textDecoration: 'none', color: '#A45C40' }}
-              >
-                <strong style={{ fontSize: '1.2rem' }}>{title}</strong>
-              </a>
-            </div>
-          </td>
-          <td>{categories.join(', ')}</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-      );
-    }
-    return <></>;
+  // open and close form
+  const [form, setForm] = useState(false);
+  const openForm = () => {
+    setForm(true);
   };
+  const closeForm = () => {
+    setForm(false);
+  };
+
+  // get total result
+  const [totalTransactions, setTotalTransactions] = useState('');
+  const [totalUser, setTotalUser] = useState('');
+  const [totalValue, setTotalValue] = useState('');
+  useEffect(() => {
+    const fetchResult = async () => {
+      let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+
+      var requestOptions = {
+        method: 'GET',
+        redirect: 'follow',
+      };
+      for (const n of array) {
+        try {
+          let res = await fetch(
+            'http://35.236.73.215/connect/result/' + n,
+            requestOptions
+          ).then((response) => response.json());
+          if (n === 1) {
+            setTotalUser(JSON.parse(res.query_result));
+          }
+          if (n === 2) {
+            setTotalTransactions(JSON.parse(res.query_result));
+          }
+          if (n === 9) {
+            setTotalValue(JSON.parse(res.query_result));
+          }
+        } catch (e) {
+          console.log(e);
+        }
+      }
+    };
+    fetchResult();
+  }, []);
   return (
     <Container>
       <h1>NEAR Dapps</h1>
-      <Row noGutters>
-        <Button onClick={() => setC('')}>All</Button>
-        {Category.map((c) => (
-          <Button key={c.title} onClick={() => setC(c.title)}>
-            {c.title} {c.count}
+
+      {form ? (
+        <Form closeForm={closeForm} />
+      ) : (
+        <>
+          <h3>Trending part</h3>
+          <Dash
+            totalTransactions={totalTransactions}
+            totalUser={totalUser}
+            totalValueTx={totalValue}
+          />
+          <Button onClick={openForm}>
+            Partners with us? Apply to be on the board
           </Button>
-        ))}
-      </Row>
-      <Row noGutters>
-        <Table>
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Title</th>
-              <th>Category</th>
-              <th>Users</th>
-              <th>Balance</th>
-              <th>Transactions</th>
-            </tr>
-          </thead>
-          <tbody>
-            {Partner.map((p, i) => (
-              <Tr
-                num={i + 1}
-                logo={p.logo}
-                title={p.title}
-                link={p.link}
-                categories={p.categories}
-                cat={cat}
-              />
-            ))}
-          </tbody>
-        </Table>
-      </Row>
+        </>
+      )}
     </Container>
   );
 }

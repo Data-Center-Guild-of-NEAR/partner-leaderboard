@@ -54,3 +54,11 @@ button:focus {
 box-shadow: 0 0 5px 5px #ffddd0;
 background-color: #ffac8d;
 }
+
+.form-item {
+  margin: 1%;
+}
+
+.form-container {
+  margin: 5%;
+}
