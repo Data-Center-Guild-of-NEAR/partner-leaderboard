@@ -1,1 +1,1571 @@
-[{"categories":["Infrastructure"],"link":"https://awesomenear.com/near-protocol/","logo":"https://awesomenear.com/img/logo/near-protocol.jpg","slug":"near-protocol","title":"NEAR Protocol"},{"categories":["Infrastructure","Wallets"],"link":"https://awesomenear.com/near-wallet/","logo":"https://awesomenear.com/img/logo/near-wallet.jpg","slug":"near-wallet","title":"NEAR Wallet"},{"categories":["Ecosystem","Tutorial","Education"],"link":"https://awesomenear.com/near-examples/","logo":"https://awesomenear.com/img/logo/near-examples.jpg","slug":"near-examples","title":"NEAR Examples"},{"categories":["Infrastructure","Explorers"],"link":"https://awesomenear.com/near-explorer/","logo":"https://awesomenear.com/img/logo/near-explorer.jpg","slug":"near-explorer","title":"NEAR Explorer"},{"categories":["Infrastructure","DeFi","Dev Tooling"],"link":"https://awesomenear.com/rainbow-bridge/","logo":"https://awesomenear.com/img/logo/rainbow-bridge.jpg","slug":"rainbow-bridge","title":"Rainbow Bridge"},{"categories":["Ecosystem","Documentations","Education"],"link":"https://awesomenear.com/near-docs/","logo":"https://awesomenear.com/img/logo/near-docs.jpg","slug":"near-docs","title":"NEAR Docs"},{"categories":["Infrastructure","Wallets"],"link":"https://awesomenear.com/ledger/","logo":"https://awesomenear.com/img/logo/ledger.jpg","slug":"ledger","title":"Ledger"},{"categories":["Infrastructure","Wallets"],"link":"https://awesomenear.com/trust-wallet/","logo":"https://awesomenear.com/img/logo/trust-wallet.jpg","slug":"trust-wallet","title":"Trust Wallet"},{"categories":["Ecosystem"],"link":"https://awesomenear.com/open-web-collective/","logo":"https://awesomenear.com/img/logo/open-web-collective.jpg","slug":"open-web-collective","title":"Open Web Collective"},{"categories":["Ecosystem","Workshops"],"link":"https://awesomenear.com/hack-the-rainbow/","logo":"https://awesomenear.com/img/logo/hack-the-rainbow.jpg","slug":"hack-the-rainbow","title":"Hack the Rainbow"}, {"categories":["DApps","NFT"],"link":"https://corgis3d.com","logo":"https://awesomenear.com/img/logo/corgis.jpg","slug":"corgis3d","title":"Corgis 3D", "whole":true},{"categories":["DApps","Gaming","OWC"],"link":"https://awesomenear.com/hash-rush/","logo":"https://awesomenear.com/img/logo/hash-rush.jpg","slug":"hash-rush","title":"HASH RUSH"},{"categories":["Dev Tooling","Infrastructure"],"link":"https://awesomenear.com/aurora-dev/","logo":"https://awesomenear.com/img/logo/aurora-dev.jpg","slug":"aurora-dev","title":"Aurora"},{"categories":["Dev Tooling"],"link":"https://awesomenear.com/the-graph/","logo":"https://awesomenear.com/img/logo/the-graph.jpg","slug":"the-graph","title":"The Graph"},{"categories":["DApps","DeFi","Oracles","AMM","OWC"],"link":"https://awesomenear.com/flux/","logo":"https://awesomenear.com/img/logo/flux.jpg","slug":"flux","title":"Flux"},{"categories":["Dev Tooling"],"link":"https://awesomenear.com/octopus-network/","logo":"https://awesomenear.com/img/logo/octopus-network.jpg","slug":"octopus-network","title":"Octopus Network"},{"categories":["DApps","DeFi"],"link":"https://awesomenear.com/ref-finance/","logo":"https://awesomenear.com/img/logo/ref-finance.jpg","slug":"ref-finance","title":"Ref Finance","whole":true},{"categories":["DApps","NFT"],"link":"https://awesomenear.com/nearfolio/","logo":"https://awesomenear.com/img/logo/nearfolio.jpg","slug":"nearfolio","title":"Nearfolio"},{"categories":["Dev Tooling","Wallets"],"link":"https://awesomenear.com/liquality/","logo":"https://awesomenear.com/img/logo/liquality.jpg","slug":"liquality","title":"liquality"},{"categories":["Ecosystem","Education"],"link":"https://awesomenear.com/learn-near/","logo":"https://awesomenear.com/img/logo/learn-near.jpg","slug":"learn-near","title":"Learn NEAR"},{"categories":["Infrastructure","Storage"],"link":"https://awesomenear.com/ipfs/","logo":"https://awesomenear.com/img/logo/ipfs.jpg","slug":"ipfs","title":"IPFS"},{"categories":["DApps","NFT","OWC"],"link":"https://awesomenear.com/snark-art/","logo":"https://awesomenear.com/img/logo/snark-art.jpg","slug":"snark-art","title":"Snark.Art"},{"categories":["DApps"],"link":"https://awesomenear.com/near-bet/","logo":"https://awesomenear.com/img/logo/near-bet.jpg","slug":"near-bet","title":"NEAR.bet"},{"categories":["DApps","NFT"],"link":"https://awesomenear.com/mintbase/","logo":"https://awesomenear.com/img/logo/mintbase.jpg","slug":"mintbase","title":"Mintbase"},{"categories":["DApps","DeFi","OWC"],"link":"https://awesomenear.com/1inch-network/","logo":"https://awesomenear.com/img/logo/1inch-network.jpg","slug":"1inch-network","title":"1Inch"},{"categories":["DApps","DeFi"],"link":"https://awesomenear.com/aave/","logo":"https://awesomenear.com/img/logo/aave.jpg","slug":"aave","title":"AAVE"},{"categories":["Ecosystem","DAO"],"link":"https://awesomenear.com/sputnikdao/","logo":"https://awesomenear.com/img/logo/sputnikdao.jpg","slug":"sputnikdao","title":"SputnikDAO", "whole":true},{"categories":["DApps","Payments"],"link":"https://awesomenear.com/near-tip-bot/","logo":"https://awesomenear.com/img/logo/near-tip-bot.jpg","slug":"near-tip-bot","title":"NEAR Tip Bot","whole":true},{"categories":["DApps","DeFi"],"link":"https://awesomenear.com/mooniswap/","logo":"https://awesomenear.com/img/logo/mooniswap.jpg","slug":"mooniswap","title":"Mooniswap"},{"categories":["DApps","Art"],"link":"https://awesomenear.com/berry-cards/","logo":"https://awesomenear.com/img/logo/berry-cards.jpg","slug":"berry-cards","title":"Berry Cards"},{"categories":["DApps","DeFi"],"link":"https://awesomenear.com/balancer/","logo":"https://awesomenear.com/img/logo/balancer.jpg","slug":"balancer","title":"Balancer"},{"categories":["DApps","DeFi"],"link":"https://awesomenear.com/weatherdex/","logo":"https://awesomenear.com/img/logo/weatherdex.jpg","slug":"weatherdex","title":"WeatherDEX"},{"categories":["DApps","Social Tokens"],"link":"https://awesomenear.com/mintgate/","logo":"https://awesomenear.com/img/logo/mintgate.jpg","slug":"mintgate","title":"MintGate"},{"categories":["DApps","NFT"],"link":"https://awesomenear.com/metamon/","logo":"https://awesomenear.com/img/logo/metamon.jpg","slug":"metamon","title":"Metamon"},{"categories":["Infrastructure","Wallets"],"link":"https://awesomenear.com/math-wallet/","logo":"https://awesomenear.com/img/logo/math-wallet.jpg","slug":"math-wallet","title":"Math Wallet"},{"categories":["DApps","DeFi"],"link":"https://awesomenear.com/skyward-finance/","logo":"https://awesomenear.com/img/logo/skyward-finance.jpg","slug":"skyward-finance","title":"Skyward Finance"},{"categories":["Ecosystem"],"link":"https://awesomenear.com/near-guilds/","logo":"https://awesomenear.com/img/logo/near-guilds.jpg","slug":"near-guilds","title":"NEAR Guilds"},{"categories":["DApps","Gaming"],"link":"https://awesomenear.com/zed/","logo":"https://awesomenear.com/img/logo/zed.jpg","slug":"zed","title":"ZED"},{"categories":["DeFi","OWC"],"link":"https://awesomenear.com/snowball/","logo":"https://awesomenear.com/img/logo/snowball.jpg","slug":"snowball","title":"Snowball"},{"categories":["DApps","Privacy"],"link":"https://awesomenear.com/puma-browser/","logo":"https://awesomenear.com/img/logo/puma-browser.jpg","slug":"puma-browser","title":"Puma Browser"},{"categories":["DApps","Gaming"],"link":"https://awesomenear.com/zest/","logo":"https://awesomenear.com/img/logo/zest.jpg","slug":"zest","title":"ZEST"},{"categories":["Ecosystem"],"link":"https://awesomenear.com/cypherpunk-guild/","logo":"https://awesomenear.com/img/logo/cypherpunk-guild.jpg","slug":"cypherpunk-guild","title":"Cypherpunk Guild"},{"categories":["DApps","Data"],"link":"https://awesomenear.com/zod-tv/","logo":"https://awesomenear.com/img/logo/zod-tv.jpg","slug":"zod-tv","title":"Zod.TV"},{"categories":["DApps","DAO"],"link":"https://awesomenear.com/worknb/","logo":"https://awesomenear.com/img/logo/worknb.jpg","slug":"worknb","title":"Worknb"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/staked/","logo":"https://awesomenear.com/img/logo/staked.jpg","slug":"staked","title":"Staked"},{"categories":["Dev Tooling","Gaming","OWC"],"link":"https://awesomenear.com/opgames/","logo":"https://awesomenear.com/img/logo/opgames.jpg","slug":"opgames","title":"OPGames"},{"categories":["DApps","Privacy","OWC"],"link":"https://awesomenear.com/nym/","logo":"https://awesomenear.com/img/logo/nym.jpg","slug":"nym","title":"Nym"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/everstake/","logo":"https://awesomenear.com/img/logo/everstake.jpg","slug":"everstake","title":"Everstake"},{"categories":["DApps","DeFi","Art"],"link":"https://awesomenear.com/berry-club/","logo":"https://awesomenear.com/img/logo/berry-club.jpg","slug":"berry-club","title":"Berry Club","whole":true},{"categories":["Dev Tooling","Oracles"],"link":"https://awesomenear.com/supra-oracles/","logo":"https://awesomenear.com/img/logo/supra-oracles.jpg","slug":"supra-oracles","title":"Supra-Oracles"},{"categories":["DApps","NFT","OWC"],"link":"https://awesomenear.com/paras/","logo":"https://awesomenear.com/img/logo/paras.jpg","slug":"paras","title":"Paras","whole":true},{"categories":["DeFi"],"link":"https://awesomenear.com/injective-protocol/","logo":"https://awesomenear.com/img/logo/injective-protocol.jpg","slug":"injective-protocol","title":"Injective Protocol"},{"categories":["Infrastructure","Storage"],"link":"https://awesomenear.com/ceramic/","logo":"https://awesomenear.com/img/logo/ceramic.jpg","slug":"ceramic","title":"Ceramic"},{"categories":["DApps","DeFi"],"link":"https://awesomenear.com/bananaswap/","logo":"https://awesomenear.com/img/logo/bananaswap.jpg","slug":"bananaswap","title":"BananaSwap"},{"categories":["DApps","Identity"],"link":"https://awesomenear.com/ontology/","logo":"https://awesomenear.com/img/logo/ontology.jpg","slug":"ontology","title":"Ontology"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/dragonfly-capital-partners/","logo":"https://awesomenear.com/img/logo/dragonfly-capital-partners.jpg","slug":"dragonfly-capital-partners","title":"Dragonfly Capital Partners"},{"categories":["Ecosystem","Education"],"link":"https://awesomenear.com/near-protocol-announcements/","logo":"https://awesomenear.com/img/logo/near-protocol-announcements.jpg","slug":"near-protocol-announcements","title":"NEAR Protocol Announcements"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/zero-knowledge-validator/","logo":"https://awesomenear.com/img/logo/zero-knowledge-validator.jpg","slug":"zero-knowledge-validator","title":"Zero Knowledge Validator"},{"categories":["Dev Tooling","Security"],"link":"https://awesomenear.com/magic-labs/","logo":"https://awesomenear.com/img/logo/magic-labs.jpg","slug":"magic-labs","title":"Magic Labs"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/electric-capital/","logo":"https://awesomenear.com/img/logo/electric-capital.jpg","slug":"electric-capital","title":"Electric Capital"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/continue-capital/","logo":"https://awesomenear.com/img/logo/continue-capital.jpg","slug":"continue-capital","title":"Continue Capital"},{"categories":["NFT","OWC"],"link":"https://awesomenear.com/upshot-one/","logo":"https://awesomenear.com/img/logo/upshot-one.jpg","slug":"upshot-one","title":"Upshot One"},{"categories":["Infrastructure","Wallets"],"link":"https://awesomenear.com/portis/","logo":"https://awesomenear.com/img/logo/portis.jpg","slug":"portis","title":"Portis"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/d1-ventures/","logo":"https://awesomenear.com/img/logo/d1-ventures.jpg","slug":"d1-ventures","title":"D1 Ventures"},{"categories":["DeFi","OWC"],"link":"https://awesomenear.com/brink/","logo":"https://awesomenear.com/img/logo/brink.jpg","slug":"brink","title":"Brink"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/spark-pool/","logo":"https://awesomenear.com/img/logo/spark-pool.jpg","slug":"spark-pool","title":"Spark Pool"},{"categories":["DApps","DeFi"],"link":"https://awesomenear.com/maker/","logo":"https://awesomenear.com/img/logo/maker.jpg","slug":"maker","title":"Maker"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/ideo-colab/","logo":"https://awesomenear.com/img/logo/ideo-colab.jpg","slug":"ideo-colab","title":"IDEO CoLab"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/hashquark/","logo":"https://awesomenear.com/img/logo/hashquark.jpg","slug":"hashquark","title":"HashQuark"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/cryptium-labs/","logo":"https://awesomenear.com/img/logo/cryptium-labs.jpg","slug":"cryptium-labs","title":"Cryptium Labs"},{"categories":["Dev Tooling"],"link":"https://awesomenear.com/torus/","logo":"https://awesomenear.com/img/logo/torus.jpg","slug":"torus","title":"TORUS"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/stakefish/","logo":"https://awesomenear.com/img/logo/stakefish.jpg","slug":"stakefish","title":"stakefish"},{"categories":["DApps"],"link":"https://awesomenear.com/near-redpackets/","logo":"https://awesomenear.com/img/logo/near-redpackets.jpg","slug":"near-redpackets","title":"NEAR Redpackets"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/chorus/","logo":"https://awesomenear.com/img/logo/chorus.jpg","slug":"chorus","title":"CHORUS"},{"categories":["DApps","Oracles"],"link":"https://awesomenear.com/pulse/","logo":"https://awesomenear.com/img/logo/pulse.jpg","slug":"pulse","title":"Pulse"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/figment/","logo":"https://awesomenear.com/img/logo/figment.jpg","slug":"figment","title":"Figment Networks"},{"categories":["DApps","Art","NFT"],"link":"https://awesomenear.com/webassembly-music/","logo":"https://awesomenear.com/img/logo/webassembly-music.jpg","slug":"webassembly-music","title":"WebAssembly Music"},{"categories":["OWC"],"link":"https://awesomenear.com/sarcophagus/","logo":"https://awesomenear.com/img/logo/sarcophagus.jpg","slug":"sarcophagus","title":"Sarcophagus"},{"categories":["DApps","Art","NFT"],"link":"https://awesomenear.com/near-pixelparty/","logo":"https://awesomenear.com/img/logo/near-pixelparty.jpg","slug":"near-pixelparty","title":"Pixelparty"},{"categories":["DApps","DeFi"],"link":"https://awesomenear.com/oin-finance/","logo":"https://awesomenear.com/img/logo/oin-finance.jpg","slug":"oin-finance","title":"OIN Finance"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/dokia-capital/","logo":"https://awesomenear.com/img/logo/dokia-capital.jpg","slug":"dokia-capital","title":"Dokia Capital"},{"categories":["DApps","DeFi"],"link":"https://awesomenear.com/common-fund/","logo":"https://awesomenear.com/img/logo/common-fund.jpg","slug":"common-fund","title":"Common Fund"},{"categories":["Infrastructure","Wallets"],"link":"https://awesomenear.com/coinbase-custody/","logo":"https://awesomenear.com/img/logo/coinbase-custody.jpg","slug":"coinbase-custody","title":"Coinbase Custody"},{"categories":["Dev Tooling","Oracles"],"link":"https://awesomenear.com/chainlink/","logo":"https://awesomenear.com/img/logo/chainlink.jpg","slug":"chainlink","title":"Chainlink"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/certus-one/","logo":"https://awesomenear.com/img/logo/certus-one.jpg","slug":"certus-one","title":"Certus One"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/bison-trails/","logo":"https://awesomenear.com/img/logo/bison-trails.jpg","slug":"bison-trails","title":"Bison Trails"},{"categories":["Ecosystem","DAO"],"link":"https://awesomenear.com/swagger-dao/","logo":"https://awesomenear.com/img/logo/swagger-dao.jpg","slug":"swagger-dao","title":"Swagger DAO"},{"categories":["DApps","DeFi"],"link":"https://awesomenear.com/ruler-protocol/","logo":"https://awesomenear.com/img/logo/ruler-protocol.jpg","slug":"ruler-protocol","title":"Ruler Protocol"},{"categories":["Ecosystem","DAO"],"link":"https://awesomenear.com/createbase/","logo":"https://awesomenear.com/img/logo/createbase.jpg","slug":"createbase","title":"Createbase"},{"categories":["Privacy"],"link":"https://awesomenear.com/zecrey/","logo":"https://awesomenear.com/img/logo/zecrey.jpg","slug":"zecrey","title":"Zecrey"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/stakin/","logo":"https://awesomenear.com/img/logo/stakin.jpg","slug":"stakin","title":"Stakin"},{"categories":["DApps","Gaming"],"link":"https://awesomenear.com/pool-party/","logo":"https://awesomenear.com/img/logo/pool-party.jpg","slug":"pool-party","title":"Pool Party"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/buildlinks/","logo":"https://awesomenear.com/img/logo/buildlinks.jpg","slug":"buildlinks","title":"Buildlinks"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/blockdaemon/","logo":"https://awesomenear.com/img/logo/blockdaemon.jpg","slug":"blockdaemon","title":"Blockdaemon"},{"categories":["DApps","DeFi"],"link":"https://awesomenear.com/trusttoken/","logo":"https://awesomenear.com/img/logo/trusttoken.jpg","slug":"trusttoken","title":"TrustToken"},{"categories":["Dev Tooling","Oracles"],"link":"https://awesomenear.com/band-protocol/","logo":"https://awesomenear.com/img/logo/band-protocol.jpg","slug":"band-protocol","title":"Band Protocol"},{"categories":["Infrastructure","Storage"],"link":"https://awesomenear.com/textile/","logo":"https://awesomenear.com/img/logo/textile.jpg","slug":"textile","title":"Textile"},{"categories":["Infrastructure","Storage"],"link":"https://awesomenear.com/sia/","logo":"https://awesomenear.com/img/logo/sia.jpg","slug":"sia","title":"Sia"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/huobi-pool/","logo":"https://awesomenear.com/img/logo/huobi-pool.jpg","slug":"huobi-pool","title":"Huobi Pool"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/01node/","logo":"https://awesomenear.com/img/logo/01node.jpg","slug":"01node","title":"01No.de"},{"categories":["DApps","Data","OWC"],"link":"https://awesomenear.com/verida/","logo":"https://awesomenear.com/img/logo/verida.jpg","slug":"verida","title":"verida"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/okex-pool/","logo":"https://awesomenear.com/img/logo/okex-pool.jpg","slug":"okex-pool","title":"OKEx Pool"},{"categories":["Ecosystem"],"link":"https://awesomenear.com/near-week/","logo":"https://awesomenear.com/img/logo/near-week.jpg","slug":"near-week","title":"NEAR WEEK"},{"categories":["DApps","DeFi","OWC"],"link":"https://awesomenear.com/heo-finance/","logo":"https://awesomenear.com/img/logo/heo-finance.jpg","slug":"heo-finance","title":"Heo Finance"},{"categories":["DApps","Data","OWC"],"link":"https://awesomenear.com/pesa/","logo":"https://awesomenear.com/img/logo/pesa.jpg","slug":"pesa","title":"PESA"},{"categories":["DApps"],"link":"https://awesomenear.com/near-crowd/","logo":"https://awesomenear.com/img/logo/near-crowd.jpg","slug":"near-crowd","title":"NEAR Crowd", "whole":true},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/infinite-lux/","logo":"https://awesomenear.com/img/logo/infinite-lux.jpg","slug":"infinite-lux","title":"Infinite Lux"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/finoa/","logo":"https://awesomenear.com/img/logo/finoa.jpg","slug":"finoa","title":"Finoa"},{"categories":["Ecosystem","DAO"],"link":"https://awesomenear.com/daorecords/","logo":"https://awesomenear.com/img/logo/daorecords.jpg","slug":"daorecords","title":"DAOrecords"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/open-shards-alliance/","logo":"https://awesomenear.com/img/logo/open-shards-alliance.jpg","slug":"open-shards-alliance","title":"Open Shards Alliance"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/nodeasy/","logo":"https://awesomenear.com/img/logo/nodeasy.jpg","slug":"nodeasy","title":"Nodeasy"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/near-staking/","logo":"https://awesomenear.com/img/logo/near-staking.jpg","slug":"near-staking","title":"NEAR-STAKING"},{"categories":["DApps","Payments","OWC"],"link":"https://awesomenear.com/kamix/","logo":"https://awesomenear.com/img/logo/kamix.jpg","slug":"kamix","title":"Kamix"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/audit-one/","logo":"https://awesomenear.com/img/logo/audit-one.jpg","slug":"audit-one","title":"AUDIT.one"},{"categories":["DApps","DeFi"],"link":"https://awesomenear.com/ampleforth/","logo":"https://awesomenear.com/img/logo/ampleforth.jpg","slug":"ampleforth","title":"Ampleforth"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/lunanova/","logo":"https://awesomenear.com/img/logo/lunanova.jpg","slug":"lunanova","title":"LunaNova"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/dsrv-labs/","logo":"https://awesomenear.com/img/logo/dsrv-labs.jpg","slug":"dsrv-labs","title":"DSRV Labs"},{"categories":["DApps","OWC"],"link":"https://awesomenear.com/vezt/","logo":"https://awesomenear.com/img/logo/vezt.jpg","slug":"vezt","title":"Vezt"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/inotel/","logo":"https://awesomenear.com/img/logo/inotel.jpg","slug":"inotel","title":"INOTEL"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/astro-stakers/","logo":"https://awesomenear.com/img/logo/astro-stakers.jpg","slug":"astro-stakers","title":"Astro-Stakers"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/zavodil/","logo":"https://awesomenear.com/img/logo/zavodil.jpg","slug":"zavodil","title":"Zavodil"},{"categories":["Privacy"],"link":"https://awesomenear.com/suterusu/","logo":"https://awesomenear.com/img/logo/suterusu.jpg","slug":"suterusu","title":"Suterusu"},{"categories":["DApps","Privacy"],"link":"https://awesomenear.com/zero-pool/","logo":"https://awesomenear.com/img/logo/zero-pool.jpg","slug":"zero-pool","title":"Zero Pool"},{"categories":["DApps","Payments"],"link":"https://awesomenear.com/moonpay/","logo":"https://awesomenear.com/img/logo/moonpay.jpg","slug":"moonpay","title":"MoonPay"},{"categories":["DApps","Oracles","Gaming"],"link":"https://awesomenear.com/stake-gg/","logo":"https://awesomenear.com/img/logo/stake-gg.jpg","slug":"stake-gg","title":"Stake.gg"},{"categories":["DApps","DeFi"],"link":"https://awesomenear.com/token-farm/","logo":"https://awesomenear.com/img/logo/token-farm.jpg","slug":"token-farm","title":"Token Farm"},{"categories":["DApps","Gaming"],"link":"https://awesomenear.com/somnium-space/","logo":"https://awesomenear.com/img/logo/somnium-space.jpg","slug":"somnium-space","title":"Somnium Space"},{"categories":["DApps","NFT"],"link":"https://awesomenear.com/pluminite/","logo":"https://awesomenear.com/img/logo/pluminite.jpg","slug":"pluminite","title":"pluminite"},{"categories":["DApps"],"link":"https://awesomenear.com/glyde/","logo":"https://awesomenear.com/img/logo/glyde.jpg","slug":"glyde","title":"Glyde"},{"categories":["DApps","Gaming"],"link":"https://awesomenear.com/galaxy-online/","logo":"https://awesomenear.com/img/logo/galaxy-online.jpg","slug":"galaxy-online","title":"Galaxy Online"},{"categories":["Ecosystem","DAO"],"link":"https://awesomenear.com/flamingo-dao/","logo":"https://awesomenear.com/img/logo/flamingo-dao.jpg","slug":"flamingo-dao","title":"Flamingo DAO"},{"categories":["DApps"],"link":"https://awesomenear.com/near-meme-pool/","logo":"https://awesomenear.com/img/logo/near-meme-pool.jpg","slug":"near-meme-pool","title":"NEAR MEME POOL"},{"categories":["DApps"],"link":"https://awesomenear.com/nearnames/","logo":"https://awesomenear.com/img/logo/nearnames.jpg","slug":"nearnames","title":"NearNames"},{"categories":["Infrastructure","Wallets"],"link":"https://awesomenear.com/narwallets/","logo":"https://awesomenear.com/img/logo/narwallets.jpg","slug":"narwallets","title":"Narwallets"},{"categories":["Infrastructure","Wallets"],"link":"https://awesomenear.com/guarda/","logo":"https://awesomenear.com/img/logo/guarda.jpg","slug":"guarda","title":"Guarda"},{"categories":["DApps","Sports","NFT","OWC"],"link":"https://awesomenear.com/arterra/","logo":"https://awesomenear.com/img/logo/arterra.jpg","slug":"arterra","title":"ARterra"},{"categories":["Infrastructure","Validators"],"link":"https://awesomenear.com/masternode24/","logo":"https://awesomenear.com/img/logo/masternode24.jpg","slug":"masternode24","title":"Masternode24"},{"categories":["DApps","Payments","OWC"],"link":"https://awesomenear.com/leafglobal/","logo":"https://awesomenear.com/img/logo/leafglobal.jpg","slug":"leafglobal","title":"Leaf Global Fintech"},{"categories":["Infrastructure","Wallets"],"link":"https://awesomenear.com/coin98-wallet/","logo":"https://awesomenear.com/img/logo/coin98-wallet.jpg","slug":"coin98-wallet","title":"Coin98 Wallet"},{"categories":["Ecosystem"],"link":"https://awesomenear.com/silicon-craftsmen/","logo":"https://awesomenear.com/img/logo/silicon-craftsmen.jpg","slug":"silicon-craftsmen","title":"Silicon Craftsmen"},{"categories":["NFT","DApps"],"link":"https://awesomenear.com/nft-hiphop/","logo":"https://awesomenear.com/img/logo/nft-hiphop.jpg","slug":"nft-hiphop","title":"nft.hiphop"},{"categories":["Ecosystem"],"link":"https://awesomenear.com/near-daily/","logo":"https://awesomenear.com/img/logo/near-daily.jpg","slug":"near-daily","title":"NEAR Daily"},{"categories":["Ecosystem"],"link":"https://awesomenear.com/merchants-of-near/","logo":"https://awesomenear.com/img/logo/merchants-of-near.jpg","slug":"merchants-of-near","title":"Merchants of NEAR"},{"categories":["Ecosystem"],"link":"https://awesomenear.com/human-guild/","logo":"https://awesomenear.com/img/logo/human-guild.jpg","slug":"human-guild","title":"Human Guild"},{"categories":["DApps","Sports","OWC"],"link":"https://awesomenear.com/boxscore/","logo":"https://awesomenear.com/img/logo/boxscore.jpg","slug":"boxscore","title":"Boxscore"}]
+[
+  {
+    "categories": [
+      "Infrastructure"
+    ],
+    "link": "https://near.org",
+    "logo": "https://awesomenear.com/img/logo/near-protocol.jpg",
+    "slug": "near-protocol",
+    "title": "NEAR Protocol",
+    "oneLiner": "The highly scalable, developer-friendly blockchain",
+    "des":"NEAR is a decentralized application platform that is secure enough to manage high value assets like money or identity and performant enough to make them useful for everyday people, putting the power of the Open Web in their hands.",
+    "social":{"facebook":"https://www.facebook.com/nearprotocol", "twitter": "https://twitter.com/nearprotocol", "medium":"https://medium.com/nearprotocol", "telegram": "https://t.me/cryptonear", "github":"https://github.com/nearprotocol"}
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Wallet"
+    ],
+    "link": "https://wallet.near.org",
+    "logo": "https://awesomenear.com/img/logo/near-wallet.jpg",
+    "slug": "near-wallet",
+    "title": "NEAR Wallet",
+    "oneLiner":"Web wallet for NEAR Protocol which stores keys in browser's localStorage",
+    "des":"NEAR Wallet is in-browser web-based wallet for working with NEAR accounts. This wallet stores account keys in open text using the localStorage on user’s machine."
+  },
+  {
+    "categories": [
+      "Ecosystem",
+      "Tutorial",
+      "Education"
+    ],
+    "link": "https://awesomenear.com/near-examples/",
+    "logo": "https://awesomenear.com/img/logo/near-examples.jpg",
+    "slug": "near-examples",
+    "title": "NEAR Examples"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Explorers"
+    ],
+    "link": "https://awesomenear.com/near-explorer/",
+    "logo": "https://awesomenear.com/img/logo/near-explorer.jpg",
+    "slug": "near-explorer",
+    "title": "NEAR Explorer"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "DeFi",
+      "Dev Tooling"
+    ],
+    "link": "https://awesomenear.com/rainbow-bridge/",
+    "logo": "https://awesomenear.com/img/logo/rainbow-bridge.jpg",
+    "slug": "rainbow-bridge",
+    "title": "Rainbow Bridge"
+  },
+  {
+    "categories": [
+      "Ecosystem",
+      "Documentations",
+      "Education"
+    ],
+    "link": "https://awesomenear.com/near-docs/",
+    "logo": "https://awesomenear.com/img/logo/near-docs.jpg",
+    "slug": "near-docs",
+    "title": "NEAR Docs"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Wallet"
+    ],
+    "link": "https://awesomenear.com/ledger/",
+    "logo": "https://awesomenear.com/img/logo/ledger.jpg",
+    "slug": "ledger",
+    "title": "Ledger"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Wallet"
+    ],
+    "link": "https://awesomenear.com/trust-wallet/",
+    "logo": "https://awesomenear.com/img/logo/trust-wallet.jpg",
+    "slug": "trust-wallet",
+    "title": "Trust Wallet"
+  },
+  {
+    "categories": [
+      "Ecosystem"
+    ],
+    "link": "https://awesomenear.com/open-web-collective/",
+    "logo": "https://awesomenear.com/img/logo/open-web-collective.jpg",
+    "slug": "open-web-collective",
+    "title": "Open Web Collective"
+  },
+  {
+    "categories": [
+      "Ecosystem",
+      "Workshops"
+    ],
+    "link": "https://awesomenear.com/hack-the-rainbow/",
+    "logo": "https://awesomenear.com/img/logo/hack-the-rainbow.jpg",
+    "slug": "hack-the-rainbow",
+    "title": "Hack the Rainbow"
+  },
+  {
+    "categories": [
+      "DApps",
+      "NFT"
+    ],
+    "link": "https://corgis3d.com",
+    "logo": "https://awesomenear.com/img/logo/corgis.jpg",
+    "slug": "corgis3d",
+    "title": "Corgis 3D",
+   "contract":["corgis3d.yifang.near"],
+    "oneLiner":"Corgis 3D is playful NFT for users to mint, trade and development in 3D world",
+    "des":"Corgis 3D is playful NFT for users to mint, trade and development in 3D world. Explore the corgis world to play mini games."
+  },
+  {
+    "categories": [
+      "DApps",
+      "Gaming",
+      "OWC"
+    ],
+    "link": "https://awesomenear.com/hash-rush/",
+    "logo": "https://awesomenear.com/img/logo/hash-rush.jpg",
+    "slug": "hash-rush",
+    "title": "HASH RUSH"
+  },
+  {
+    "categories": [
+      "Dev Tooling",
+      "Infrastructure"
+    ],
+    "link": "https://aurora.dev/",
+    "logo": "https://awesomenear.com/img/logo/aurora-dev.jpg",
+    "slug": "aurora",
+    "title": "Aurora",
+    "contract": ["aurora.near"],
+    "oneLiner": "Scaling Solution for Ethereum",
+    "des":"Aurora is an Ethereum Virtual Machine created by the stellar team at the NEAR Protocol, delivering a turn-key solution for developers to operate their apps on an Ethereum-compatible, high-throughput, scalable and future-safe platform, with low transaction costs for their users."
+  },
+  {
+    "categories": [
+      "Dev Tooling"
+    ],
+    "link": "https://awesomenear.com/the-graph/",
+    "logo": "https://awesomenear.com/img/logo/the-graph.jpg",
+    "slug": "the-graph",
+    "title": "The Graph"
+  },
+  {
+    "categories": [
+      "DApps",
+      "DeFi",
+      "Oracles",
+      "AMM",
+      "OWC"
+    ],
+    "link": "https://fluxprotocol.org",
+    "logo": "https://awesomenear.com/img/logo/flux.jpg",
+    "slug": "flux",
+    "title": "Flux",
+    "oneLiner": "The easiest protocol for developers launching open financial markets",
+    "des":"Flux is a scalable open data protocol providing on-chain data for any asset, commodity, or event. Easily connect to Flux with the open source Javascript SDK to enable scalable, permission-less data."
+  },
+  {
+    "categories": [
+      "Dev Tooling"
+    ],
+    "link": "https://oct.network/",
+    "logo": "https://awesomenear.com/img/logo/octopus-network.jpg",
+    "slug": "octopus-network",
+    "title": "Octopus Network",
+    "oneLiner":"Where Web3.0 Happens",
+    "des":"Octopus is a protocol for launching Web3.0 appchains. By decreasing the cost of bootstrapping a Web3.0 applications in form of blockchain by two orders of magnitude, from several million dollars to less than one hundred thousand dollars; providing leased security, out-of-box interoperability and everlasting forkability; facilitating generalized mining centered token economics; bonding a set of social contracts consist of fair launch, regulatory compliance token distribution and protocol participants dominant on-chain governance, Octopus Network will unleash Web3.0 gold rush."
+  },
+  {
+    "categories": [
+      "DApps",
+      "DeFi"
+    ],
+    "link": "https://awesomenear.com/ref-finance/",
+    "logo": "https://awesomenear.com/img/logo/ref-finance.jpg",
+    "slug": "ref-finance",
+    "title": "Ref Finance",
+    "contract":  ["amm.counselor.near", "ref-finance.near"],
+    "oneLiner":"Multi-purpose Decentralized Finance (DeFi) platform built on NEAR Protocol",
+    "des":"Ref Finance is a community-led, multi-purpose Decentralized Finance (DeFi) platform built on NEAR Protocol. Ref combines several core components: a decentralized exchange, lending, a synthetic asset issuer, and more -— into a single, synchronous DeFi stack. Ref will take full advantage of NEAR’s low fees ($0.005 per swap), one-to-two second finality, and WebAssembly-based runtime (hello, Rust smart contracts!) to rival even CEX costs and speeds and become a powerful addition to the increasingly multi-chain DeFi ecosystem."
+  },
+  {
+    "categories": [
+      "Dev Tooling",
+      "Wallet"
+    ],
+    "link": "https://awesomenear.com/liquality/",
+    "logo": "https://awesomenear.com/img/logo/liquality.jpg",
+    "slug": "liquality",
+    "title": "liquality"
+  },
+  {
+    "categories": [
+      "Ecosystem",
+      "Education"
+    ],
+    "link": "https://learnnear.club/",
+    "logo": "https://awesomenear.com/img/logo/learn-near.jpg",
+    "slug": "learn-near",
+    "title": "Learn NEAR",
+    "oneLiner": "Learn how to use and build on NEAR",
+    "des":"Learn NEAR, A collection of learning materials for NEAR Protocol. Learn to build for Open Economy today. NEAR Protocol intends to educate the world on the Web3 stack. Earn NEAR while you Learn NEAR. Exclusive offers from NEAR. Early access to LearnNear.Club projects."
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Storage"
+    ],
+    "link": "https://awesomenear.com/ipfs/",
+    "logo": "https://awesomenear.com/img/logo/ipfs.jpg",
+    "slug": "ipfs",
+    "title": "IPFS"
+  },
+  {
+    "categories": [
+      "DApps",
+      "NFT",
+      "OWC"
+    ],
+    "link": "https://awesomenear.com/snark-art/",
+    "logo": "https://awesomenear.com/img/logo/snark-art.jpg",
+    "slug": "snark-art",
+    "title": "Snark.Art"
+  },
+  {
+    "categories": [
+      "DApps"
+    ],
+    "link": "https://near.bet",
+    "logo": "https://awesomenear.com/img/logo/near-bet.jpg",
+    "slug": "near-bet",
+    "title": "NEAR.bet",
+    "contract":["c.nearbet.near"],
+    "oneLiner": "The easiest way to get a cool account name",
+    "des": "Claim an account. This costs full price. You need to wait 72 hours to make sure no one wants to bet on the account. If someone will bet within 72 hours, you will receive all your funds back plus forfeits paid by believer who bets. If no one will bet, the account is totally yours, congratulations!"
+  },
+  {
+    "categories": [
+      "DApps",
+      "NFT",
+      "Marketplace"
+    ],
+    "link": "https://www.mintbase.io/",
+    "logo": "https://awesomenear.com/img/logo/mintbase.jpg",
+    "slug": "mintbase",
+    "title": "Mintbase",
+    "contract": ["mintbase.near"],
+    "oneLiner":"Mintbase is a ground breaking NFT protocol that allows you to mint, sell and development on your own contract",
+    "des":"Making non-fungible tokens useful. Create your own digital asset backed by you. Founded by Nate Geier. With AllTheThings, a company can easily create their own reward system and thus, speed up consumer spending as well as increase customer loyalty through programmable reward tokens (ERC-721) called Things."
+  },
+  {
+    "categories": [
+      "DApps",
+      "DeFi",
+      "OWC"
+    ],
+    "link": "https://awesomenear.com/1inch-network/",
+    "logo": "https://awesomenear.com/img/logo/1inch-network.jpg",
+    "slug": "1inch-network",
+    "title": "1Inch"
+  },
+  {
+    "categories": [
+      "DApps",
+      "DeFi"
+    ],
+    "link": "https://awesomenear.com/aave/",
+    "logo": "https://awesomenear.com/img/logo/aave.jpg",
+    "slug": "aave",
+    "title": "AAVE"
+  },
+  {
+    "categories": [
+      "Ecosystem",
+      "DAO"
+    ],
+    "link": "https://awesomenear.com/sputnikdao/",
+    "logo": "https://awesomenear.com/img/logo/sputnikdao.jpg",
+    "slug": "sputnik-dao",
+    "title": "SputnikDAO",
+    "contract":["yolo.sputnikdao.near"],
+    "oneLiner":"Launch pad for your next DAO",
+    "des":"SputnikDAO, Infra to create funding and squad DAOs. Making decisions and manage funds with your community. Powered by NEAR. Bond: 1NEAR; Vote Period: 5d; Purpose: Development of Sputnik DAO and supporting growth of DAO Mesh."
+  },
+  {
+    "categories": [
+      "DApps",
+      "Payments"
+    ],
+    "link": "https://tips.nearspace.info/",
+    "logo": "https://awesomenear.com/img/logo/near-tip-bot.jpg",
+    "slug": "near-tip-bot",
+    "title": "NEAR Tip Bot",
+    "contract":["tipbot.app.near"],
+    "oneLiner":"Building the blockchain dApp inside the messenger",
+    "des":"NEAR Tip Bot, Building the blockchain dApp inside the messenger. Sends tip in NEAR tokens direct in Telegram. It is possible to manage funds inside the messenger, launch smart contracts with one touch, perform operations and pay small fractions of a cent as fees, and keep your account private keys safe. Yes, if you are using a NEAR blockchain."
+  },
+  {
+    "categories": [
+      "DApps",
+      "DeFi"
+    ],
+    "link": "https://awesomenear.com/mooniswap/",
+    "logo": "https://awesomenear.com/img/logo/mooniswap.jpg",
+    "slug": "mooniswap",
+    "title": "Mooniswap"
+  },
+  {
+    "categories": [
+      "DApps",
+      "NFT"
+    ],
+    "link": "https://berry.cards/",
+    "logo": "https://awesomenear.com/img/logo/berry-cards.jpg",
+    "slug": "berry-cards",
+    "title": "Berry Cards",
+    "oneLiner":"Selecting berry hot boards from the berryclub",
+    "des":"Compare historic Berry Club boards to find the best card. At least 10% of all sales goes to a newly created account that Evgeny Kuzyakov call Art DAO."
+  },
+  {
+    "categories": [
+      "DApps",
+      "DeFi"
+    ],
+    "link": "https://awesomenear.com/balancer/",
+    "logo": "https://awesomenear.com/img/logo/balancer.jpg",
+    "slug": "balancer",
+    "title": "Balancer"
+  },
+  {
+    "categories": [
+      "DApps",
+      "DeFi"
+    ],
+    "link": "https://awesomenear.com/weatherdex/",
+    "logo": "https://awesomenear.com/img/logo/weatherdex.jpg",
+    "slug": "weatherdex",
+    "title": "WeatherDEX"
+  },
+  {
+    "categories": [
+      "DApps",
+      "Social Tokens"
+    ],
+    "link": "https://awesomenear.com/mintgate/",
+    "logo": "https://awesomenear.com/img/logo/mintgate.jpg",
+    "slug": "mintgate",
+    "title": "MintGate"
+  },
+  {
+    "categories": [
+      "DApps",
+      "NFT"
+    ],
+    "link": "https://www.metamon.app/",
+    "logo": "https://awesomenear.com/img/logo/metamon.jpg",
+    "slug": "metamon",
+    "title": "Metamon",
+    "oneLiner":"Collect, evolve and play",
+    "des": "Metamon is a universe of cute and powerful monsters that you can capture, evolve and play games with! They are limited edition critically endangered creatures that will be available for adoption to an elite group of collectors. Combine two of the same Metamons to evolve them into an even rarer and more powerful Metamon. But be careful! Once you evolve, there is no going back!"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Wallet"
+    ],
+    "link": "https://awesomenear.com/math-wallet/",
+    "logo": "https://awesomenear.com/img/logo/math-wallet.jpg",
+    "slug": "math-wallet",
+    "title": "Math Wallet"
+  },
+  {
+    "categories": [
+      "DApps",
+      "DeFi"
+    ],
+    "link": "https://awesomenear.com/skyward-finance/",
+    "logo": "https://awesomenear.com/img/logo/skyward-finance.jpg",
+    "slug": "skyward-finance",
+    "title": "Skyward Finance",
+    "contract": ["skyward.near"],
+    "oneLiner":"Enable fair token distribution and price discovery for projects built on NEAR Protocol",
+    "des":"Skyward Finance is a decentralized platform to enable fair token distribution and price discovery for projects built on NEAR Protocol. Skyward Finance’s goal is to provide mechanisms for initial price discovery and token distribution through a streaming time-based auctions that are accessible to the general public in a decentralized way, while being resistant to front-running, price manipulations, and sybil attacks. Skyward Finance will issue a token that allows the community to become the part of the platform and get the corresponding part of the revenue."
+  },
+  {
+    "categories": [
+      "Dev Tooling"
+    ],
+    "link": "https://siasky.net",
+    "logo": "",
+    "slug": "skynet",
+    "title": "Skynet",
+    "oneLiner":"Decentralized internet for a free future",
+    "des": "Decentralized internet for a free future - host your content aNd build apps using decentralized storage"
+  },
+  {
+    "categories": [
+      "Ecosystem"
+    ],
+    "link": "https://awesomenear.com/near-guilds/",
+    "logo": "https://awesomenear.com/img/logo/near-guilds.jpg",
+    "slug": "near-guilds",
+    "title": "NEAR Guilds"
+  },
+  {
+    "categories": [
+      "DApps",
+      "Gaming"
+    ],
+    "link": "https://awesomenear.com/zed/",
+    "logo": "https://awesomenear.com/img/logo/zed.jpg",
+    "slug": "zed",
+    "title": "ZED"
+  },
+  {
+    "categories": [
+      "DeFi",
+      "OWC"
+    ],
+    "link": "https://awesomenear.com/snowball/",
+    "logo": "https://awesomenear.com/img/logo/snowball.jpg",
+    "slug": "snowball",
+    "title": "Snowball"
+  },
+  {
+    "categories": [
+      "DApps",
+      "Privacy"
+    ],
+    "link": "https://awesomenear.com/puma-browser/",
+    "logo": "https://awesomenear.com/img/logo/puma-browser.jpg",
+    "slug": "puma-browser",
+    "title": "Puma Browser"
+  },
+  {
+    "categories": [
+      "DApps",
+      "Gaming"
+    ],
+    "link": "https://awesomenear.com/zest/",
+    "logo": "https://awesomenear.com/img/logo/zest.jpg",
+    "slug": "zest",
+    "title": "ZEST"
+  },
+  {
+    "categories": [
+      "Ecosystem"
+    ],
+    "link": "https://awesomenear.com/cypherpunk-guild/",
+    "logo": "https://awesomenear.com/img/logo/cypherpunk-guild.jpg",
+    "slug": "cypherpunk-guild",
+    "title": "Cypherpunk Guild"
+  },
+  {
+    "categories": [
+      "DApps",
+      "Data"
+    ],
+    "link": "https://awesomenear.com/zod-tv/",
+    "logo": "https://awesomenear.com/img/logo/zod-tv.jpg",
+    "slug": "zod-tv",
+    "title": "Zod.TV"
+  },
+  {
+    "categories": [
+      "DApps",
+      "DAO"
+    ],
+    "link": "https://awesomenear.com/worknb/",
+    "logo": "https://awesomenear.com/img/logo/worknb.jpg",
+    "slug": "worknb",
+    "title": "Worknb"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/staked/",
+    "logo": "https://awesomenear.com/img/logo/staked.jpg",
+    "slug": "staked",
+    "title": "Staked"
+  },
+  {
+    "categories": [
+      "Dev Tooling",
+      "Gaming",
+      "OWC"
+    ],
+    "link": "https://outplay.games/",
+    "logo": "https://awesomenear.com/img/logo/opgames.jpg",
+    "slug": "opgames",
+    "title": "OPGames",
+    "oneLiner":"Competitive game tournaments made easy.",
+    "des":"OPGames is a suite of tools that enables game developers to transform their single player game of skills into a multiplayer tournament with crypto payouts."
+  },
+  {
+    "categories": [
+      "DApps",
+      "Privacy",
+      "OWC"
+    ],
+    "link": "https://awesomenear.com/nym/",
+    "logo": "https://awesomenear.com/img/logo/nym.jpg",
+    "slug": "nym",
+    "title": "Nym"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/everstake/",
+    "logo": "https://awesomenear.com/img/logo/everstake.jpg",
+    "slug": "everstake",
+    "title": "Everstake"
+  },
+  {
+    "categories": [
+      "DApps",
+      "DeFi",
+      "Art"
+    ],
+    "link": "https://berryclub.io/",
+    "logo": "https://awesomenear.com/img/logo/berry-club.jpg",
+    "slug": "berry-club",
+    "title": "Berry Club",
+    "contract": [
+      "farm.berryclub.ek.near",
+      "cards.berryclub.ek.near",
+      "berryclub.ek.near"
+    ],
+    "oneLiner":"Berry Club is the first yield farming app on NEAR Protocol",
+    "des":"Berry Club is the first yield farming app on NEAR Protocol"
+  },
+  {
+    "categories": [
+      "Dev Tooling",
+      "Oracles"
+    ],
+    "link": "https://awesomenear.com/supra-oracles/",
+    "logo": "https://awesomenear.com/img/logo/supra-oracles.jpg",
+    "slug": "supra-oracles",
+    "title": "Supra-Oracles"
+  },
+  {
+    "categories": [
+      "DApps",
+      "NFT",
+      "OWC",
+      "Marketplace"
+    ],
+    "link": "https://paras.id/",
+    "logo": "https://awesomenear.com/img/logo/paras.jpg",
+    "slug": "paras",
+    "title": "Paras",
+    "contract": ["contract.paras.near"],
+    "oneLiner":"Create, Trade and Collect Digital Art Cards (DACs)",
+    "des": "Paras, All-in-one social DAC marketplace for creators and collectors. For Collectors: Discover beautiful art cards and collect them on a blockchain-based technology that prevents forgery and provides provable ownership. For Artists: Create your digital art cards and sell them on the marketplace in just a few clicks. Start earning with your digital creation."
+  },
+  {
+    "categories": [
+      "DeFi"
+    ],
+    "link": "https://awesomenear.com/injective-protocol/",
+    "logo": "https://awesomenear.com/img/logo/injective-protocol.jpg",
+    "slug": "injective-protocol",
+    "title": "Injective Protocol"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Storage"
+    ],
+    "link": "https://awesomenear.com/ceramic/",
+    "logo": "https://awesomenear.com/img/logo/ceramic.jpg",
+    "slug": "ceramic",
+    "title": "Ceramic"
+  },
+  {
+    "categories": [
+      "DApps",
+      "DeFi"
+    ],
+    "link": "https://awesomenear.com/bananaswap/",
+    "logo": "https://awesomenear.com/img/logo/bananaswap.jpg",
+    "slug": "bananaswap",
+    "title": "BananaSwap"
+  },
+  {
+    "categories": [
+      "DApps",
+      "Identity"
+    ],
+    "link": "https://awesomenear.com/ontology/",
+    "logo": "https://awesomenear.com/img/logo/ontology.jpg",
+    "slug": "ontology",
+    "title": "Ontology"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/dragonfly-capital-partners/",
+    "logo": "https://awesomenear.com/img/logo/dragonfly-capital-partners.jpg",
+    "slug": "dragonfly-capital-partners",
+    "title": "Dragonfly Capital Partners"
+  },
+  {
+    "categories": [
+      "Ecosystem",
+      "Education"
+    ],
+    "link": "https://awesomenear.com/near-protocol-announcements/",
+    "logo": "https://awesomenear.com/img/logo/near-protocol-announcements.jpg",
+    "slug": "near-protocol-announcements",
+    "title": "NEAR Protocol Announcements"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/zero-knowledge-validator/",
+    "logo": "https://awesomenear.com/img/logo/zero-knowledge-validator.jpg",
+    "slug": "zero-knowledge-validator",
+    "title": "Zero Knowledge Validator"
+  },
+  {
+    "categories": [
+      "Dev Tooling",
+      "Security"
+    ],
+    "link": "https://awesomenear.com/magic-labs/",
+    "logo": "https://awesomenear.com/img/logo/magic-labs.jpg",
+    "slug": "magic-labs",
+    "title": "Magic Labs"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/electric-capital/",
+    "logo": "https://awesomenear.com/img/logo/electric-capital.jpg",
+    "slug": "electric-capital",
+    "title": "Electric Capital"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/continue-capital/",
+    "logo": "https://awesomenear.com/img/logo/continue-capital.jpg",
+    "slug": "continue-capital",
+    "title": "Continue Capital"
+  },
+  {
+    "categories": [
+      "NFT",
+      "OWC"
+    ],
+    "link": "https://awesomenear.com/upshot-one/",
+    "logo": "https://awesomenear.com/img/logo/upshot-one.jpg",
+    "slug": "upshot-one",
+    "title": "Upshot One"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Wallet"
+    ],
+    "link": "https://awesomenear.com/portis/",
+    "logo": "https://awesomenear.com/img/logo/portis.jpg",
+    "slug": "portis",
+    "title": "Portis"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/d1-ventures/",
+    "logo": "https://awesomenear.com/img/logo/d1-ventures.jpg",
+    "slug": "d1-ventures",
+    "title": "D1 Ventures"
+  },
+  {
+    "categories": [
+      "DeFi",
+      "OWC"
+    ],
+    "link": "https://awesomenear.com/brink/",
+    "logo": "https://awesomenear.com/img/logo/brink.jpg",
+    "slug": "brink",
+    "title": "Brink"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/spark-pool/",
+    "logo": "https://awesomenear.com/img/logo/spark-pool.jpg",
+    "slug": "spark-pool",
+    "title": "Spark Pool"
+  },
+  {
+    "categories": [
+      "DApps",
+      "DeFi"
+    ],
+    "link": "https://awesomenear.com/maker/",
+    "logo": "https://awesomenear.com/img/logo/maker.jpg",
+    "slug": "maker",
+    "title": "Maker"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/ideo-colab/",
+    "logo": "https://awesomenear.com/img/logo/ideo-colab.jpg",
+    "slug": "ideo-colab",
+    "title": "IDEO CoLab"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/hashquark/",
+    "logo": "https://awesomenear.com/img/logo/hashquark.jpg",
+    "slug": "hashquark",
+    "title": "HashQuark"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/cryptium-labs/",
+    "logo": "https://awesomenear.com/img/logo/cryptium-labs.jpg",
+    "slug": "cryptium-labs",
+    "title": "Cryptium Labs"
+  },
+  {
+    "categories": [
+      "Dev Tooling"
+    ],
+    "link": "https://awesomenear.com/torus/",
+    "logo": "https://awesomenear.com/img/logo/torus.jpg",
+    "slug": "torus",
+    "title": "TORUS"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/stakefish/",
+    "logo": "https://awesomenear.com/img/logo/stakefish.jpg",
+    "slug": "stakefish",
+    "title": "stakefish"
+  },
+  {
+    "categories": [
+      "DApps"
+    ],
+    "link": "https://awesomenear.com/near-redpackets/",
+    "logo": "https://awesomenear.com/img/logo/near-redpackets.jpg",
+    "slug": "near-redpackets",
+    "title": "NEAR Redpackets"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/chorus/",
+    "logo": "https://awesomenear.com/img/logo/chorus.jpg",
+    "slug": "chorus",
+    "title": "CHORUS"
+  },
+  {
+    "categories": [
+      "DApps",
+      "Oracles"
+    ],
+    "link": "https://pulsemarket.eth.link/",
+    "logo": "https://awesomenear.com/img/logo/pulse.jpg",
+    "slug": "pulse",
+    "title": "Pulse",
+    "oneLiner":"Fair launch open-source app for prediction markets",
+    "des": "Pulse is an open-source app for prediction markets, by the community, for the community. built on Flux Protocol."
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/figment/",
+    "logo": "https://awesomenear.com/img/logo/figment.jpg",
+    "slug": "figment",
+    "title": "Figment Networks"
+  },
+  {
+    "categories": [
+      "DApps",
+      "Art",
+      "NFT"
+    ],
+    "link": "https://awesomenear.com/webassembly-music/",
+    "logo": "https://awesomenear.com/img/logo/webassembly-music.jpg",
+    "slug": "webassembly-music",
+    "title": "WebAssembly Music"
+  },
+  {
+    "categories": [
+      "OWC"
+    ],
+    "link": "https://awesomenear.com/sarcophagus/",
+    "logo": "https://awesomenear.com/img/logo/sarcophagus.jpg",
+    "slug": "sarcophagus",
+    "title": "Sarcophagus"
+  },
+  {
+    "categories": [
+      "DApps",
+      "Art",
+      "NFT"
+    ],
+    "link": "https://www.near-pixelparty.co/",
+    "logo": "https://awesomenear.com/img/logo/near-pixelparty.jpg",
+    "slug": "pixel-party",
+    "title": "Pixelparty",
+    "contract": ["pixelparty.near"],
+    "oneLiner":"NFT on NEAR with a total supply of only 600 tokens",
+    "des": "Pixelparty is kind of a NFT on the Near Blockchain with a total supply of only 600 tokens. Each token represents a subframe of the Pixelparty-Frame. Each token you own authorizes you to draw the frame (20x20px) you own in the way you want and be a part of the big picture. You can just draw something you like or even could buy several connecting frame and use it to advertise for something."
+  },
+  {
+    "categories": [
+      "DApps",
+      "DeFi"
+    ],
+    "link": "https://awesomenear.com/oin-finance/",
+    "logo": "https://awesomenear.com/img/logo/oin-finance.jpg",
+    "slug": "oin-finance",
+    "title": "OIN Finance"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/dokia-capital/",
+    "logo": "https://awesomenear.com/img/logo/dokia-capital.jpg",
+    "slug": "dokia-capital",
+    "title": "Dokia Capital"
+  },
+  {
+    "categories": [
+      "DApps",
+      "DeFi"
+    ],
+    "link": "https://awesomenear.com/common-fund/",
+    "logo": "https://awesomenear.com/img/logo/common-fund.jpg",
+    "slug": "common-fund",
+    "title": "Common Fund"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Wallet"
+    ],
+    "link": "https://awesomenear.com/coinbase-custody/",
+    "logo": "https://awesomenear.com/img/logo/coinbase-custody.jpg",
+    "slug": "coinbase-custody",
+    "title": "Coinbase Custody"
+  },
+  {
+    "categories": [
+      "Dev Tooling",
+      "Oracles"
+    ],
+    "link": "https://awesomenear.com/chainlink/",
+    "logo": "https://awesomenear.com/img/logo/chainlink.jpg",
+    "slug": "chainlink",
+    "title": "Chainlink"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/certus-one/",
+    "logo": "https://awesomenear.com/img/logo/certus-one.jpg",
+    "slug": "certus-one",
+    "title": "Certus One"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/bison-trails/",
+    "logo": "https://awesomenear.com/img/logo/bison-trails.jpg",
+    "slug": "bison-trails",
+    "title": "Bison Trails"
+  },
+  {
+    "categories": [
+      "Ecosystem",
+      "DAO"
+    ],
+    "link": "https://awesomenear.com/swagger-dao/",
+    "logo": "https://awesomenear.com/img/logo/swagger-dao.jpg",
+    "slug": "swagger-dao",
+    "title": "Swagger DAO"
+  },
+  {
+    "categories": [
+      "DApps",
+      "DeFi"
+    ],
+    "link": "https://awesomenear.com/ruler-protocol/",
+    "logo": "https://awesomenear.com/img/logo/ruler-protocol.jpg",
+    "slug": "ruler-protocol",
+    "title": "Ruler Protocol"
+  },
+  {
+    "categories": [
+      "Ecosystem",
+      "Guild",
+      "DAO"
+    ],
+    "link": "https://createbase.community/",
+    "logo": "https://awesomenear.com/img/logo/createbase.jpg",
+    "slug": "createbase",
+    "title": "Createbase",
+    "oneLiner":"Community for Creators/Projects launching on Mintbase. Get support/funding and connect with other creatives",
+    "des":"Createbase is a NEAR guild that works to support projects/teams that are planning on building on Mintbase/NEAR. Mintbase.io allows users to create their own NFT “store/factory” on the blockchain. From there, the possibilities are almost limitless. We are just here to help get us a little closer to that limit."
+  },
+  {
+    "categories": [
+      "Privacy"
+    ],
+    "link": "https://awesomenear.com/zecrey/",
+    "logo": "https://awesomenear.com/img/logo/zecrey.jpg",
+    "slug": "zecrey",
+    "title": "Zecrey"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/stakin/",
+    "logo": "https://awesomenear.com/img/logo/stakin.jpg",
+    "slug": "stakin",
+    "title": "Stakin"
+  },
+  {
+    "categories": [
+      "DApps",
+      "Gaming"
+    ],
+    "link": "https://awesomenear.com/pool-party/",
+    "logo": "https://awesomenear.com/img/logo/pool-party.jpg",
+    "slug": "pool-party",
+    "title": "Pool Party"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/buildlinks/",
+    "logo": "https://awesomenear.com/img/logo/buildlinks.jpg",
+    "slug": "buildlinks",
+    "title": "Buildlinks"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/blockdaemon/",
+    "logo": "https://awesomenear.com/img/logo/blockdaemon.jpg",
+    "slug": "blockdaemon",
+    "title": "Blockdaemon"
+  },
+  {
+    "categories": [
+      "DApps",
+      "DeFi"
+    ],
+    "link": "https://awesomenear.com/trusttoken/",
+    "logo": "https://awesomenear.com/img/logo/trusttoken.jpg",
+    "slug": "trusttoken",
+    "title": "TrustToken"
+  },
+  {
+    "categories": [
+      "Dev Tooling",
+      "Oracles"
+    ],
+    "link": "https://awesomenear.com/band-protocol/",
+    "logo": "https://awesomenear.com/img/logo/band-protocol.jpg",
+    "slug": "band-protocol",
+    "title": "Band Protocol"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Storage"
+    ],
+    "link": "https://awesomenear.com/textile/",
+    "logo": "https://awesomenear.com/img/logo/textile.jpg",
+    "slug": "textile",
+    "title": "Textile"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Storage"
+    ],
+    "link": "https://awesomenear.com/sia/",
+    "logo": "https://awesomenear.com/img/logo/sia.jpg",
+    "slug": "sia",
+    "title": "Sia"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/huobi-pool/",
+    "logo": "https://awesomenear.com/img/logo/huobi-pool.jpg",
+    "slug": "huobi-pool",
+    "title": "Huobi Pool"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/01node/",
+    "logo": "https://awesomenear.com/img/logo/01node.jpg",
+    "slug": "01node",
+    "title": "01No.de"
+  },
+  {
+    "categories": [
+      "DApps",
+      "Data",
+      "OWC"
+    ],
+    "link": "https://awesomenear.com/verida/",
+    "logo": "https://awesomenear.com/img/logo/verida.jpg",
+    "slug": "verida",
+    "title": "verida"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/okex-pool/",
+    "logo": "https://awesomenear.com/img/logo/okex-pool.jpg",
+    "slug": "okex-pool",
+    "title": "OKEx Pool"
+  },
+  {
+    "categories": [
+      "Ecosystem"
+    ],
+    "link": "https://awesomenear.com/near-week/",
+    "logo": "https://awesomenear.com/img/logo/near-week.jpg",
+    "slug": "near-week",
+    "title": "NEAR WEEK"
+  },
+  {
+    "categories": [
+      "DApps",
+      "DeFi",
+      "OWC"
+    ],
+    "link": "https://awesomenear.com/heo-finance/",
+    "logo": "https://awesomenear.com/img/logo/heo-finance.jpg",
+    "slug": "heo-finance",
+    "title": "Heo Finance"
+  },
+  {
+    "categories": [
+      "DApps",
+      "Data",
+      "OWC"
+    ],
+    "link": "https://awesomenear.com/pesa/",
+    "logo": "https://awesomenear.com/img/logo/pesa.jpg",
+    "slug": "pesa",
+    "title": "PESA"
+  },
+  {
+    "categories": [
+      "DApps"
+    ],
+    "link": "https://nearcrowd.com/",
+    "logo": "https://awesomenear.com/img/logo/near-crowd.jpg",
+    "slug": "near-crowd",
+    "title": "NEAR Crowd",
+    "contract": ["app.nearcrowd.near"],
+    "oneLiner": "Earn NEAR by performing simple tasks",
+    "des":"NEAR Crowd is a service that allows people earn Ⓝ by completing small tasks. While tasks are provided and funded by a centralized entity, called the Requestor, NEAR Crowd significantly limits the power that the Requestor has, and moves the power to the community instead. In particular, while the Requestor provides the specification of what needs to be done in each task, it’s the community that decides whether each task is completed correctly according to this specification. This is achieved by creating a set of rules, checks and balances that are enforced by a smart contract deployed on NEAR."
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/infinite-lux/",
+    "logo": "https://awesomenear.com/img/logo/infinite-lux.jpg",
+    "slug": "infinite-lux",
+    "title": "Infinite Lux"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/finoa/",
+    "logo": "https://awesomenear.com/img/logo/finoa.jpg",
+    "slug": "finoa",
+    "title": "Finoa"
+  },
+  {
+    "categories": [
+      "Ecosystem",
+      "DAO"
+    ],
+    "link": "https://awesomenear.com/daorecords/",
+    "logo": "https://awesomenear.com/img/logo/daorecords.jpg",
+    "slug": "daorecords",
+    "title": "DAOrecords"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/open-shards-alliance/",
+    "logo": "https://awesomenear.com/img/logo/open-shards-alliance.jpg",
+    "slug": "open-shards-alliance",
+    "title": "Open Shards Alliance"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/nodeasy/",
+    "logo": "https://awesomenear.com/img/logo/nodeasy.jpg",
+    "slug": "nodeasy",
+    "title": "Nodeasy"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/near-staking/",
+    "logo": "https://awesomenear.com/img/logo/near-staking.jpg",
+    "slug": "near-staking",
+    "title": "NEAR-STAKING"
+  },
+  {
+    "categories": [
+      "DApps",
+      "Payments",
+      "OWC"
+    ],
+    "link": "https://awesomenear.com/kamix/",
+    "logo": "https://awesomenear.com/img/logo/kamix.jpg",
+    "slug": "kamix",
+    "title": "Kamix"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/audit-one/",
+    "logo": "https://awesomenear.com/img/logo/audit-one.jpg",
+    "slug": "audit-one",
+    "title": "AUDIT.one"
+  },
+  {
+    "categories": [
+      "DApps",
+      "DeFi"
+    ],
+    "link": "https://awesomenear.com/ampleforth/",
+    "logo": "https://awesomenear.com/img/logo/ampleforth.jpg",
+    "slug": "ampleforth",
+    "title": "Ampleforth"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/lunanova/",
+    "logo": "https://awesomenear.com/img/logo/lunanova.jpg",
+    "slug": "lunanova",
+    "title": "LunaNova"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/dsrv-labs/",
+    "logo": "https://awesomenear.com/img/logo/dsrv-labs.jpg",
+    "slug": "dsrv-labs",
+    "title": "DSRV Labs"
+  },
+  {
+    "categories": [
+      "DApps",
+      "OWC"
+    ],
+    "link": "https://awesomenear.com/vezt/",
+    "logo": "https://awesomenear.com/img/logo/vezt.jpg",
+    "slug": "vezt",
+    "title": "Vezt"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/inotel/",
+    "logo": "https://awesomenear.com/img/logo/inotel.jpg",
+    "slug": "inotel",
+    "title": "INOTEL"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/astro-stakers/",
+    "logo": "https://awesomenear.com/img/logo/astro-stakers.jpg",
+    "slug": "astro-stakers",
+    "title": "Astro-Stakers"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/zavodil/",
+    "logo": "https://awesomenear.com/img/logo/zavodil.jpg",
+    "slug": "zavodil",
+    "title": "Zavodil"
+  },
+  {
+    "categories": [
+      "Privacy"
+    ],
+    "link": "https://awesomenear.com/suterusu/",
+    "logo": "https://awesomenear.com/img/logo/suterusu.jpg",
+    "slug": "suterusu",
+    "title": "Suterusu"
+  },
+  {
+    "categories": [
+      "DApps",
+      "Privacy"
+    ],
+    "link": "https://awesomenear.com/zero-pool/",
+    "logo": "https://awesomenear.com/img/logo/zero-pool.jpg",
+    "slug": "zero-pool",
+    "title": "Zero Pool"
+  },
+  {
+    "categories": [
+      "DApps",
+      "Payments"
+    ],
+    "link": "https://awesomenear.com/moonpay/",
+    "logo": "https://awesomenear.com/img/logo/moonpay.jpg",
+    "slug": "moonpay",
+    "title": "MoonPay"
+  },
+  {
+    "categories": [
+      "DApps",
+      "Oracles",
+      "Gaming"
+    ],
+    "link": "https://awesomenear.com/stake-gg/",
+    "logo": "https://awesomenear.com/img/logo/stake-gg.jpg",
+    "slug": "stake-gg",
+    "title": "Stake.gg"
+  },
+  {
+    "categories": [
+      "DApps",
+      "DeFi"
+    ],
+    "link": "https://awesomenear.com/token-farm/",
+    "logo": "https://awesomenear.com/img/logo/token-farm.jpg",
+    "slug": "token-farm",
+    "title": "Token Farm"
+  },
+  {
+    "categories": [
+      "DApps",
+      "Gaming"
+    ],
+    "link": "https://awesomenear.com/somnium-space/",
+    "logo": "https://awesomenear.com/img/logo/somnium-space.jpg",
+    "slug": "somnium-space",
+    "title": "Somnium Space"
+  },
+  {
+    "categories": [
+      "DApps",
+      "NFT"
+    ],
+    "link": "https://pluminite.com/",
+    "logo": "https://awesomenear.com/img/logo/pluminite.jpg",
+    "slug": "pluminite",
+    "title": "Pluminite",
+    "oneLiner":"The place for rare NFT gems",
+    "des" : "Pluminite is the place for rare NFT gems. Come mint your first three pieces with no upfront costs."
+  },
+  {
+    "categories": [
+      "DApps"
+    ],
+    "link": "https://awesomenear.com/glyde/",
+    "logo": "https://awesomenear.com/img/logo/glyde.jpg",
+    "slug": "glyde",
+    "title": "Glyde"
+  },
+  {
+    "categories": [
+      "DApps",
+      "Gaming"
+    ],
+    "link": "https://awesomenear.com/galaxy-online/",
+    "logo": "https://awesomenear.com/img/logo/galaxy-online.jpg",
+    "slug": "galaxy-online",
+    "title": "Galaxy Online"
+  },
+  {
+    "categories": [
+      "Ecosystem",
+      "DAO"
+    ],
+    "link": "https://awesomenear.com/flamingo-dao/",
+    "logo": "https://awesomenear.com/img/logo/flamingo-dao.jpg",
+    "slug": "flamingo-dao",
+    "title": "Flamingo DAO"
+  },
+  {
+    "categories": [
+      "DApps"
+    ],
+    "link": "https://awesomenear.com/near-meme-pool/",
+    "logo": "https://awesomenear.com/img/logo/near-meme-pool.jpg",
+    "slug": "near-meme-pool",
+    "title": "NEAR MEME POOL"
+  },
+  {
+    "categories": [
+      "DApps"
+    ],
+    "link": "https://awesomenear.com/nearnames/",
+    "logo": "https://awesomenear.com/img/logo/nearnames.jpg",
+    "slug": "nearnames",
+    "title": "NearNames"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Wallet"
+    ],
+    "link": "https://awesomenear.com/narwallets/",
+    "logo": "https://awesomenear.com/img/logo/narwallets.jpg",
+    "slug": "narwallets",
+    "title": "Narwallets"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Wallet"
+    ],
+    "link": "https://awesomenear.com/guarda/",
+    "logo": "https://awesomenear.com/img/logo/guarda.jpg",
+    "slug": "guarda",
+    "title": "Guarda"
+  },
+  {
+    "categories": [
+      "DApps",
+      "Sports",
+      "NFT",
+      "OWC"
+    ],
+    "link": "https://awesomenear.com/arterra/",
+    "logo": "https://awesomenear.com/img/logo/arterra.jpg",
+    "slug": "arterra",
+    "title": "ARterra"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Validators"
+    ],
+    "link": "https://awesomenear.com/masternode24/",
+    "logo": "https://awesomenear.com/img/logo/masternode24.jpg",
+    "slug": "masternode24",
+    "title": "Masternode24"
+  },
+  {
+    "categories": [
+      "DApps",
+      "Payments",
+      "OWC"
+    ],
+    "link": "https://awesomenear.com/leafglobal/",
+    "logo": "https://awesomenear.com/img/logo/leafglobal.jpg",
+    "slug": "leafglobal",
+    "title": "Leaf Global Fintech"
+  },
+  {
+    "categories": [
+      "Infrastructure",
+      "Wallet"
+    ],
+    "link": "https://coin98.app/",
+    "logo": "https://awesomenear.com/img/logo/coin98-wallet.jpg",
+    "slug": "coin98-wallet",
+    "title": "Coin98 Wallet",
+    "oneLiner":"Using a Decentralized Wallet With Experiences of a Centralized One",
+    "des": "Coin98 Wallet, Using a Decentralized Wallet With Experiences of a Centralized One. Safety of decentralization but convenience of centralization. UI and UX of the App are optimized by professionals with over five years of experience in the industry."
+  },
+  {
+    "categories": [
+      "Ecosystem"
+    ],
+    "link": "https://awesomenear.com/silicon-craftsmen/",
+    "logo": "https://awesomenear.com/img/logo/silicon-craftsmen.jpg",
+    "slug": "silicon-craftsmen",
+    "title": "Silicon Craftsmen"
+  },
+  {
+    "categories": [
+      "NFT",
+      "DApps",
+      "Marketplace"
+    ],
+    "link": "https://nft.hiphop/",
+    "logo": "https://awesomenear.com/img/logo/nft-hiphop.jpg",
+    "slug": "nft-hiphop",
+    "title": "nft.hiphop",
+    "oneLiner": "Hip-Hop Heads NFT auction marketplace",
+    "des":"NEAR collaborated with Ed Young, co-founder of The Source magazine, and artist André LeRoy Davis to release a collection of non-fungible tokens featuring portraits of iconic figures from the 47-year history of hip-hop. The pop-up auction features new daily editions of all 103 Hip Hop Heads. Fans can bid with a credit card – no complex crypto onboarding – creating a NEAR account in the process, and the winners' NFTs will display in their NEAR wallet."
+  },
+  {
+    "categories": [
+      "Ecosystem"
+    ],
+    "link": "https://awesomenear.com/near-daily/",
+    "logo": "https://awesomenear.com/img/logo/near-daily.jpg",
+    "slug": "near-daily",
+    "title": "NEAR Daily"
+  },
+  {
+    "categories": [
+      "Ecosystem"
+    ],
+    "link": "https://awesomenear.com/merchants-of-near/",
+    "logo": "https://awesomenear.com/img/logo/merchants-of-near.jpg",
+    "slug": "merchants-of-near",
+    "title": "Merchants of NEAR"
+  },
+  {
+    "categories": [
+      "Ecosystem"
+    ],
+    "link": "https://awesomenear.com/human-guild/",
+    "logo": "https://awesomenear.com/img/logo/human-guild.jpg",
+    "slug": "human-guild",
+    "title": "Human Guild"
+  },
+  {
+    "categories": [
+      "DApps",
+      "Sports",
+      "OWC"
+    ],
+    "link": "https://awesomenear.com/boxscore/",
+    "logo": "https://awesomenear.com/img/logo/boxscore.jpg",
+    "slug": "boxscore",
+    "title": "Boxscore"
+  },
+  {
+    "categories": ["Dev Tooling"],
+    "link": "https://collab.land/",
+    "logo": "",
+    "slug": "collab-land",
+    "title": "Collab Land",
+    "oneLiner": "Tokenized community tooling",
+    "des":"Collab.Land leverages the power of identity through crypto currency to create a social space unique to a specific network of humans. Once you add the bot to your Telegram group or Discord guild, they will manage your people for you. Depending on their token holdings they will be allowed to join the community. If they sell, the bot boots them."
+  },
+  {
+    "categories": ["Defi"],
+    "link": "",
+    "logo": "",
+    "slug": "metapool",
+    "title": "Collab Land",
+    "oneLiner": "Liquid staking solution on NEAR",
+    "des":""
+  },
+  {
+    "categories": ["Infrastructure", "Funding"],
+    "link": "https://near.foundation/",
+    "logo": "",
+    "slug": "near-foundation",
+    "title": "NEAR Foundation",
+    "oneLiner": "Enable community-driven innovation to benefit people around the world",
+    "des":"A non-profit foundation headquartered in Switzerland that is responsible for contracting NEAR protocol maintainers, funding NEAR ecosystem development, and shepherding core governance of the NEAR protocol."
+  },
+  {
+    "categories": ["Ecosystem"],
+    "link": "https://www.openforestprotocol.org/",
+    "logo": "",
+    "slug": "open-forest-protocol",
+    "title": "Open Forest Protocol",
+    "oneLiner": "An open-source network allowing users to upload, monitor, and verify reforestation projects around the world.",
+    "des":""
+  },
+  {
+    "categories": ["Dev Tooling"],
+    "link": "https://transak.com",
+    "logo": "",
+    "slug": "transak",
+    "title": "Transak",
+    "oneLiner": "Global fiat on/off ramp for apps and wallets",
+    "des":""
+  }
+]

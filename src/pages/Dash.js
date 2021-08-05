@@ -4,9 +4,22 @@ import { Button, Table, Row, Container } from 'react-bootstrap';
 
 import Category from '../data/category-list.json';
 import Partner from '../data/partner-list.json';
-import { partner_map } from '../data/account-list';
 
-function Dash({ totalTransactions, totalUser, totalValueTx }) {
+function Dash({
+  totalTransactions,
+  totalUser,
+  totalValueTx,
+  totalTransactions_30d,
+  totalUser_30d,
+  totalValue_30d,
+  totalTransactions_7d,
+  totalUser_7d,
+  totalValue_7d,
+  totalTransactions_24h,
+  totalUser_24h,
+  totalValue_24h,
+}) {
+  // general table item
   const [cat, setC] = useState('DApps');
   const Tr = ({ num, logo, title, link, categories, cat }) => {
     if (cat === '' || categories.includes(cat)) {
@@ -32,7 +45,10 @@ function Dash({ totalTransactions, totalUser, totalValueTx }) {
     }
     return <></>;
   };
-  let display_list = Partner.filter((p) => p.whole === true);
+  let display_list = Partner.filter((p) => p.contract !== undefined);
+  // timeline state
+  const time = ['From Start Date', '30D', '7D', '24H'];
+  const [timeline, setTimeline] = useState('From Start Date');
 
   const DTr = ({
     num,
@@ -61,97 +77,133 @@ function Dash({ totalTransactions, totalUser, totalValueTx }) {
           </div>
         </td>
         <td>{categories.join(', ')}</td>
+        <td>{transactions}</td>
         <td>{userAmount}</td>
         <td>{totalValue}</td>
-        <td>{transactions}</td>
       </tr>
     );
   };
 
-  const addUpTx = (contractIdList) => {
-    if (totalTransactions) {
-      let list = contractIdList.map((contract) => {
-        for (let i = 0; i < totalTransactions.length; i++) {
-          if (contract === totalTransactions[i].receiver_account_id) {
-            return Number(totalTransactions[i].transactions_count);
-          }
+  const addUpTx = (contractIdList, transactions) => {
+    let list = contractIdList.map((contract) => {
+      for (let i = 0; i < transactions.length; i++) {
+        if (contract === transactions[i].receiver_account_id) {
+          return Number(transactions[i].transactions_count);
         }
-      });
+      }
+    });
+    if (list[0]) {
       return list.reduce((r1, r2) => r1 + r2);
     }
-    return 'Loading';
+    return 'NaN';
   };
 
-  const addUpUser = (contractIdList) => {
-    if (totalUser) {
-      let list = contractIdList.map((contract) => {
-        for (let i = 0; i < totalUser.length; i++) {
-          if (contract === totalUser[i].receiver_account_id) {
-            return Number(totalUser[i].user_amount);
-          }
+  const addUpUser = (contractIdList, users) => {
+    let list = contractIdList.map((contract) => {
+      for (let i = 0; i < users.length; i++) {
+        if (contract === users[i].receiver_account_id) {
+          return Number(users[i].user_amount);
         }
-      });
+      }
+    });
+    if (list[0]) {
       return list.reduce((r1, r2) => r1 + r2);
     }
-    return 'Loading';
+    return 'NaN';
   };
 
-  const addUpValue = (contractIdList) => {
-    if (totalValueTx) {
-      let list = contractIdList.map((contract) => {
-        for (let i = 0; i < totalValueTx.length; i++) {
-          if (contract === totalValueTx[i].receiver_account_id) {
-            return new BN(totalValueTx[i].token_value).div(
-              new BN('1000000000000000000000000')
-            );
-          }
+  const addUpValue = (contractIdList, txvalues) => {
+    let list = contractIdList.map((contract) => {
+      for (let i = 0; i < txvalues.length; i++) {
+        if (contract === txvalues[i].receiver_account_id) {
+          return new BN(txvalues[i].token_value).div(
+            new BN('1000000000000000000000000')
+          );
         }
-      });
+      }
+    });
+    if (list[0]) {
       let result = list.reduce((r1, r2) => r1.add(r2), new BN('0'));
       return result.toString();
     }
-    return 'Loading';
+    return 'NaN';
   };
+
+  let transactions =
+    timeline === '30D'
+      ? totalTransactions_30d
+      : timeline === '7D'
+      ? totalTransactions_7d
+      : timeline === '24H'
+      ? totalTransactions_24h
+      : totalTransactions;
+
+  let users =
+    timeline === '30D'
+      ? totalUser_30d
+      : timeline === '7D'
+      ? totalUser_7d
+      : timeline === '24H'
+      ? totalUser_24h
+      : totalUser;
+
+  let txvalues =
+    timeline === '30D'
+      ? totalValue_30d
+      : timeline === '7D'
+      ? totalValue_7d
+      : timeline === '24H'
+      ? totalValue_24h
+      : totalValueTx;
 
   return (
     <Container>
       <Row noGutters>
-        {Category.map((c) => (
-          <Button key={c.title} onClick={() => setC(c.title)}>
-            {c.title} {c.count}
-          </Button>
-        ))}
-        <Button onClick={() => setC('')}>All</Button>
-      </Row>
-      <Row noGutters>
         <h3>Display Dapps</h3>
+        <Row>
+          {time.map((t) => (
+            <Button key={t} onClick={() => setTimeline(t)}>
+              {t}
+            </Button>
+          ))}
+        </Row>
         <Table>
           <thead>
             <tr>
               <th>#</th>
               <th>Title</th>
               <th>Category</th>
+              <th>Transactions</th>
               <th>User Amount</th>
               <th>Total Value</th>
-              <th>Transactions</th>
             </tr>
           </thead>
           <tbody>
-            {display_list.map((p, i) => (
+            {display_list.map((d, i) => (
               <DTr
+                key={i}
                 num={i + 1}
-                logo={p.logo}
-                title={p.title}
-                link={p.link}
-                categories={p.categories}
+                logo={d.logo}
+                title={d.title}
+                link={d.link}
+                categories={d.categories}
                 cat={cat}
-                transactions={addUpTx(partner_map[p.slug])}
-                userAmount={addUpUser(partner_map[p.slug])}
-                totalValue={addUpValue(partner_map[p.slug])}
+                transactions={addUpTx(d.contract, transactions)}
+                userAmount={addUpUser(d.contract, users)}
+                totalValue={addUpValue(d.contract, txvalues)}
               />
             ))}
           </tbody>
         </Table>
+      </Row>
+      <Row noGutters>
+        <h3>Categories</h3>
+        {Category.map((c) => (
+          <Button key={c.title} onClick={() => setC(c.title)}>
+            {c.title} {c.count}
+          </Button>
+        ))}
+        <Button onClick={() => setC('')}>All</Button>
       </Row>
       <Row noGutters>
         <Table>

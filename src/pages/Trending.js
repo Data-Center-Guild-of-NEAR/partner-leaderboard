@@ -1,70 +1,87 @@
 import React, { useState } from 'react';
-import { Button, Table, Row, Container } from 'react-bootstrap';
-
-import Category from '../data/category-list.json';
+import ReactEcharts from 'echarts-for-react';
+import { Container, Button } from 'react-bootstrap';
 import Partner from '../data/partner-list.json';
 
-function Dash() {
-  const [cat, setC] = useState('DApps');
-  const Tr = ({ num, logo, title, link, categories, cat }) => {
-    if (cat === '' || categories.includes(cat)) {
-      return (
-        <tr key={num} className="table-item">
-          <td>{num}</td>
-          <td>
-            <div>
-              <img src={logo} alt="" className="logo" />
-              <a
-                href={link}
-                target="_blank"
-                rel="noreferrer"
-                style={{ textDecoration: 'none', color: '#A45C40' }}
-              >
-                <strong style={{ fontSize: '1.2rem' }}>{title}</strong>
-              </a>
-            </div>
-          </td>
-          <td>{categories.join(', ')}</td>
-        </tr>
-      );
+function Trending({ transactions }) {
+  let display_list = Partner.filter((p) => p.contract !== undefined);
+  const addUpTx = (contractIdList, transactions) => {
+    let list = contractIdList.map((contract) => {
+      for (let i = 0; i < transactions.length; i++) {
+        if (contract === transactions[i].receiver_account_id) {
+          return Number(transactions[i].transactions_count);
+        }
+      }
+    });
+    if (list[0]) {
+      return list.reduce((r1, r2) => r1 + r2);
     }
-    return <></>;
+    return 0;
   };
+  let display = display_list.map((d) => ({
+    dapp_name: d.title,
+    dapp_transactions: addUpTx(d.contract, transactions),
+  }));
+
+  display.sort((a, b) => {
+    if (a.dapp_transactions > b.dapp_transactions) {
+      return -1;
+    }
+    if (a.dapp_transactions < b.dapp_transactions) {
+      return 1;
+    }
+    return 0;
+  });
+  display = display.slice(0, 5);
+  const getOption = () => {
+    return {
+      grid: { containLabel: true },
+      tooltip: {
+        trigger: 'axis',
+        axisPointer: {
+          type: 'shadow',
+        },
+      },
+      xAxis: [
+        {
+          name: 'Transactions',
+          type: 'value',
+        },
+      ],
+      yAxis: [
+        {
+          type: 'category',
+          inverse: true,
+          data: display.map((d) => d.dapp_name),
+        },
+      ],
+      series: [
+        {
+          type: 'bar',
+          data: display.map((d) => d.dapp_transactions),
+        },
+      ],
+    };
+  };
+
+  const chartStyle = {
+    height: '480px',
+    width: '100%',
+    marginTop: '26px',
+    marginLeft: '24px',
+  };
+  const [show, setShow] = useState(true);
   return (
     <Container>
-      <Row noGutters>
-        {Category.map((c) => (
-          <Button key={c.title} onClick={() => setC(c.title)}>
-            {c.title} {c.count}
-          </Button>
-        ))}
-        <Button onClick={() => setC('')}>All</Button>
-      </Row>
-      <Row noGutters>
-        <Table>
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Title</th>
-              <th>Category</th>
-            </tr>
-          </thead>
-          <tbody>
-            {Partner.map((p, i) => (
-              <Tr
-                num={i + 1}
-                logo={p.logo}
-                title={p.title}
-                link={p.link}
-                categories={p.categories}
-                cat={cat}
-              />
-            ))}
-          </tbody>
-        </Table>
-      </Row>
+      <h3>
+        Trending <Button onClick={() => setShow(!show)}>Toggle</Button>
+      </h3>
+      <div style={{ display: show ? 'block' : 'none' }}>
+        <p>Latest Active Dapps on NEAR</p>
+        <ReactEcharts option={getOption()} style={chartStyle} />
+      </div>
     </Container>
   );
 }
 
-export default Dash;
+export default Trending;

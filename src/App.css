@@ -1,6 +1,6 @@
 
 body {
-  background-color: #E4B7A0;
+  background-color: #ffe7db;
   text-align: center;
   font-family: 'Cabin', sans-serif;
   color:#A45C40;
@@ -25,7 +25,7 @@ body {
 table {
   margin: auto;
   width: 100%;
-  background-color: #F6EEE0;
+  background-color: #fffde6;
   padding: 1%;
   border-radius: 5px;
 }
@@ -36,16 +36,17 @@ tr {
 }
 
 .table-item {
-  border-bottom: 2px solid #A45C40;
+  border-bottom: 2px solid #ce7f5f;
 }
 
 button {
-  background-color: #ff7f50;
+  background-color: #ff7f50be;
   padding: 1%;
   margin: 1%;
   border-radius: 10px;
   cursor: pointer;
   border: 2px solid #d68d73;
+  color:#75422d;
 }
 
 button:hover,

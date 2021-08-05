@@ -1,4 +1,7 @@
-const {partner_list} = require('../data/partner-list.json')
+const partner = require('../data/partner-list.json');
+const partner_list = partner
+  .filter((p) => p.contract)
+  .map((p) => "'" + p.contract + "'");
 
 // query part
 const queryTransactions = (timestamp = undefined) => {
