@@ -70,7 +70,7 @@ function Trending({ transactions }) {
     marginTop: '26px',
     marginLeft: '24px',
   };
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
   return (
     <Container>
       <h3>

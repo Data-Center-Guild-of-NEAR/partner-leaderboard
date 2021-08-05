@@ -156,46 +156,52 @@ function Dash({
       ? totalValue_24h
       : totalValueTx;
 
+  const [show, setShow] = useState(true);
   return (
     <Container>
       <Row noGutters>
-        <h3>Display Dapps</h3>
-        <Row>
-          {time.map((t) => (
-            <Button key={t} onClick={() => setTimeline(t)}>
-              {t}
-            </Button>
-          ))}
-        </Row>
-        <Table>
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Title</th>
-              <th>Category</th>
-              <th>Transactions</th>
-              <th>User Amount</th>
-              <th>Total Value</th>
-            </tr>
-          </thead>
-          <tbody>
-            {display_list.map((d, i) => (
-              <DTr
-                key={i}
-                num={i + 1}
-                logo={d.logo}
-                title={d.title}
-                link={d.link}
-                categories={d.categories}
-                cat={cat}
-                transactions={addUpTx(d.contract, transactions)}
-                userAmount={addUpUser(d.contract, users)}
-                totalValue={addUpValue(d.contract, txvalues)}
-              />
+        <h3>
+          Display Dapps <Button onClick={() => setShow(!show)}>Toggle</Button>
+        </h3>
+        <div style={{ display: show ? 'block' : 'none' }}>
+          <Row>
+            {time.map((t) => (
+              <Button key={t} onClick={() => setTimeline(t)}>
+                {t}
+              </Button>
             ))}
-          </tbody>
-        </Table>
+          </Row>
+          <Table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Title</th>
+                <th>Category</th>
+                <th>Transactions</th>
+                <th>User Amount</th>
+                <th>Total Value</th>
+              </tr>
+            </thead>
+            <tbody>
+              {display_list.map((d, i) => (
+                <DTr
+                  key={i}
+                  num={i + 1}
+                  logo={d.logo}
+                  title={d.title}
+                  link={d.link}
+                  categories={d.categories}
+                  cat={cat}
+                  transactions={addUpTx(d.contract, transactions)}
+                  userAmount={addUpUser(d.contract, users)}
+                  totalValue={addUpValue(d.contract, txvalues)}
+                />
+              ))}
+            </tbody>
+          </Table>
+        </div>
       </Row>
+
       <Row noGutters>
         <h3>Categories</h3>
         {Category.map((c) => (
