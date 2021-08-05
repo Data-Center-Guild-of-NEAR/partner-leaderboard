@@ -178,7 +178,7 @@ function Dash({
                 <th>Title</th>
                 <th>Category</th>
                 <th>Transactions</th>
-                <th>User Amount</th>
+                <th>Unique User Amount</th>
                 <th>Total Value</th>
               </tr>
             </thead>
