@@ -223,6 +223,7 @@ function Dash({
           <tbody>
             {Partner.map((p, i) => (
               <Tr
+                key={i}
                 num={i + 1}
                 logo={p.logo}
                 title={p.title}
