@@ -1,7 +1,9 @@
 [
-  {"count":22,"slug":"defi","title":"DeFi"},
-  {"count":13,"slug":"nft","title":"NFT"},
-  {"count":8,"slug":"gaming","title":"Gaming"},
-  {"count":11,"slug":"dev-tooling","title":"Dev Tooling"},
-  {"count":11,"slug":"other","title":"Other"}
+  {"count":14,"slug":"dapps","title":"Dapps"},
+  {"count":6,"slug":"defi","title":"DeFi"},
+  {"count":6,"slug":"nft","title":"NFT"},
+  {"count":2,"slug":"gaming","title":"Gaming"},
+  {"count":2,"slug":"art","title":"Art"},
+  {"count":1,"slug":"dev-tooling","title":"Dev Tooling"},
+  {"count":6,"slug":"oracles","title":"Oracles"}
 ]

@@ -32,7 +32,7 @@
     "des":"Making non-fungible tokens useful. Create your own digital asset backed by you. Founded by Nate Geier. With AllTheThings, a company can easily create their own reward system and thus, speed up consumer spending as well as increase customer loyalty through programmable reward tokens (ERC-721) called Things."
   },
   {
-    "categories": [ "Other", "Oracles" ],
+    "categories": [ "Oracles" ],
     "link": "https://fluxprotocol.org",
     "logo": "./logo/flux.jpg",
     "slug": "flux-protocol",
@@ -65,9 +65,14 @@
     "categories": ["DApps", "staking", "DAO", "DeFi"],
     "link": "https://narwallets.com",
     "logo": "./logo/meta-pool.jpeg",
-    "slug": "metapool",
+    "slug": "meta-pool",
     "title": "Meta Pool",
     "contract": ["meta-pool.near"],
+    "social": {
+      "twitter": "https://twitter.com/meta_pool",
+      "discord": "https://discord.gg/NJ7A2r2U8g",
+      "github":"https://github.com/Narwallets/meta-pool"
+    },
     "oneLiner": "Liquid staking solution, no waiting period to unstake your NEAR rewards",
     "des":"When staking with Meta Pool, users receive stNEAR tokens representing their share of the total supply of Metapool’s staked NEAR. stNEAR tokens can be used like any other NEP-141 Token to earn yields and lending rewards. The stNEAR price is updated every epoch to reflect NEAR Protocol staking rewards. Our goal is to solve the problems associated with Proof-of-Stake networks: illiquidity, immovability and accessibility. We aim to increase the liquidity of staked NEAR tokens and while distributing them across multiple validators to improve censorship-resistance of the NEAR network."
   },
@@ -147,10 +152,7 @@
     "des":"Compare historic Berry Club boards to find the best card. At least 10% of all sales goes to a newly created account that Evgeny Kuzyakov call Art DAO."
   },
   {
-    "categories": [
-      "DApps",
-      "Other"
-    ],
+    "categories": ["DApps"],
     "link": "https://nearcrowd.com/",
     "logo": "./logo/near-crowd.jpg",
     "slug": "near-crowd",
@@ -167,7 +169,8 @@
   {
     "categories": [
       "DApps",
-      "NFT"
+      "NFT",
+      "Gaming"
     ],
     "link": "https://corgis3d.com",
     "logo": "./logo/corgis.jpg",
@@ -200,11 +203,7 @@
     "des": "The ETH ↔ NEAR Rainbow Bridge is a trustless, permissionless, and generic protocol for connecting blockchains. The bridge protocol removes the need to trust anyone except the security of the connected chains. Anyone can deploy a new bridge, use an existing bridge, or join the maintenance of an existing bridge without getting approval from anyone else."
   },
   {
-    "categories": [
-      "Ecosystem",
-      "DAO",
-      "Other"
-    ],
+    "categories": ["Ecosystem","DAO"],
     "link": "https://sputnik.fund",
     "logo": "./logo/sputnikdao.jpg",
     "slug": "sputnik-dao",
@@ -231,10 +230,7 @@
     "des": "Pixelparty is kind of a NFT on the Near Blockchain with a total supply of only 600 tokens. Each token represents a subframe of the Pixelparty-Frame. Each token you own authorizes you to draw the frame (20x20px) you own in the way you want and be a part of the big picture. You can just draw something you like or even could buy several connecting frame and use it to advertise for something."
   },
   {
-    "categories": [
-      "DApps",
-      "Other"
-    ],
+    "categories": ["DApps"],
     "link": "https://near.bet/",
     "logo": "./logo/near-bet.jpg",
     "slug": "near-bet",
