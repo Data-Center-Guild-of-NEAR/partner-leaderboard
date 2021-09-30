@@ -85,3 +85,5 @@ The most useful functions should be in the ./src/pages/Dash.js
 
 ##### domain
 The domain name is from namecheap.
+
+Please use https:near-pulse.com/partner to display the board.
