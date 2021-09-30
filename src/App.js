@@ -6,9 +6,6 @@ import Dash from './pages/Dash';
 import Form from './pages/Form';
 import Trending from './pages/Trending';
 
-import partner from './data/new-partner-list.json';
-import { part } from 'file-loader';
-
 function App() {
   // open and close form
   const [form, setForm] = useState(false);
@@ -99,8 +96,6 @@ function App() {
     // fetchResult();
   }, []);
 
-  let contract = partner.filter((p) => p.contract).flatMap((p) => p.contract);
-  console.log(contract);
   return <></>;
   // return (
   //   <Container>
