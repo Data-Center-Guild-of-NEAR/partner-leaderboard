@@ -1,6 +1,6 @@
 [
   {
-    "categories": [ "Dapps", "NFT" ],
+    "categories": [ "DApps", "NFT" ],
     "link": "https://paras.id/",
     "logo": "./logo/paras.jpg",
     "slug": "paras",
@@ -16,7 +16,7 @@
     "des": "Paras, All-in-one social DAC marketplace for creators and collectors. For Collectors: Discover beautiful art cards and collect them on a blockchain-based technology that prevents forgery and provides provable ownership. For Artists: Create your digital art cards and sell them on the marketplace in just a few clicks. Start earning with your digital creation."
   },
   {
-    "categories": [ "Dapps", "NFT" ],
+    "categories": [ "DApps", "NFT" ],
     "link": "https://www.mintbase.io/",
     "logo": "./logo/mintbase.jpg",
     "slug": "mintbase",
@@ -32,7 +32,7 @@
     "des":"Making non-fungible tokens useful. Create your own digital asset backed by you. Founded by Nate Geier. With AllTheThings, a company can easily create their own reward system and thus, speed up consumer spending as well as increase customer loyalty through programmable reward tokens (ERC-721) called Things."
   },
   {
-    "categories": [ "Oracles" ],
+    "categories": [ "DApps", "Oracles" ],
     "link": "https://fluxprotocol.org",
     "logo": "./logo/flux.jpg",
     "slug": "flux-protocol",
@@ -48,7 +48,7 @@
   },
   {
     "categories": [
-      "Dapps", "Oracles", "DeFi"
+      "DApps", "Oracles", "DeFi"
     ],
     "link": "https://pulsemarket.eth.link/",
     "logo": "./logo/pulse.jpg",
@@ -272,8 +272,7 @@
   {
     "categories": [
       "NFT",
-      "DApps",
-      "Marketplace"
+      "DApps"
     ],
     "link": "https://nft.hiphop/",
     "logo": "./logo/nft-hiphop.jpg",
