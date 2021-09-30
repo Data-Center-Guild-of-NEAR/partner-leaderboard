@@ -77,5 +77,11 @@ and the result map for api is :
 
 }
 
+##### functions
+The most useful functions should be in the ./src/pages/Dash.js
+`addUpTransactions` is to add up transactions for partner contract list
+`addUpUser` is to add up users for partner contract list 
+`addUpValue` is to add up NEAR token deposit to partner contract list. NEAR_NOMINATION is 24 digits, do not be frightened by the big number.
+
 ##### domain
 The domain name is from namecheap.

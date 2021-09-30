@@ -60,7 +60,7 @@ function Dash({
     );
   };
 
-  const addUpTx = (contractIdList, transactions) => {
+  const addUpTransactions = (contractIdList, transactions) => {
     let list = contractIdList.map((contract) => {
       for (let i = 0; i < transactions.length; i++) {
         if (contract === transactions[i].receiver_account_id) {
@@ -74,7 +74,7 @@ function Dash({
     return 'NaN';
   };
 
-  const addUpUser = (contractIdList, users) => {
+  const addUpUsers = (contractIdList, users) => {
     let list = contractIdList.map((contract) => {
       for (let i = 0; i < users.length; i++) {
         if (contract === users[i].receiver_account_id) {
@@ -88,7 +88,7 @@ function Dash({
     return 'NaN';
   };
 
-  const addUpValue = (contractIdList, txvalues) => {
+  const addUpTotalValue = (contractIdList, txvalues) => {
     let list = contractIdList.map((contract) => {
       for (let i = 0; i < txvalues.length; i++) {
         if (contract === txvalues[i].receiver_account_id) {
@@ -177,9 +177,9 @@ function Dash({
                   link={d.link}
                   categories={d.categories}
                   cat={cat}
-                  transactions={addUpTx(d.contract, transactions)}
-                  userAmount={addUpUser(d.contract, users)}
-                  totalValue={addUpValue(d.contract, txvalues)}
+                  transactions={addUpTransactions(d.contract, transactions)}
+                  userAmount={addUpUsers(d.contract, users)}
+                  totalValue={addUpTotalValue(d.contract, txvalues)}
                 />
               ))}
             </tbody>
