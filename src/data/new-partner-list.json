@@ -184,7 +184,19 @@
     "des":"Corgis 3D is playful NFT for users to mint, trade and development in 3D world. Explore the corgis world to play mini games."
   },
   {
-    "title": "Feiyu"
+    "categories": [
+      "DApps"
+    ],
+    "link": "https://www.fygtapp.com/",
+    "logo": "./logo/feiyu.png",
+    "slug": "feiyu",
+    "title": "Feiyu",
+    "contract": ["canvas-war.feiyu.near"],
+    "social": {
+      "weixin": "fygtapp"
+    },
+    "oneLiner": "",
+    "des":""
   },
   {
     "categories": [
@@ -196,6 +208,7 @@
     "logo": "./logo/rainbow-bridge.jpg",
     "slug": "rainbow-bridge",
     "title": "Rainbow Bridge",
+    "contract":["client.bridge.near", "factory.bridge.near"],
     "social": {
       "github": "https://github.com/near/rainbow-bridge"
     },

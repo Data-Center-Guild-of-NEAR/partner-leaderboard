@@ -6,7 +6,8 @@ import Dash from './pages/Dash';
 import Form from './pages/Form';
 import Trending from './pages/Trending';
 
-import { queryTokenValueTransacted } from './api/query';
+import partner from './data/new-partner-list.json';
+import { part } from 'file-loader';
 
 function App() {
   // open and close form
@@ -36,6 +37,7 @@ function App() {
   const [totalValue_24h, setTotalValue_24h] = useState('');
   // get trending state
   const [totalTransactions_12h, setTotalTransactions_12h] = useState('');
+
   useEffect(() => {
     const fetchResult = async () => {
       let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
@@ -47,7 +49,7 @@ function App() {
       for (const n of array) {
         try {
           let res = await fetch(
-            'http://35.236.73.215/connect/result/' + n,
+            'https://api.near-pulse.com/connect/result/' + n,
             requestOptions
           ).then((response) => response.json());
           if (n === 1) {
@@ -94,38 +96,42 @@ function App() {
         }
       }
     };
-    fetchResult();
+    // fetchResult();
   }, []);
-  return (
-    <Container>
-      <h1>Awesome NEAR</h1>
 
-      {form ? (
-        <Form closeForm={closeForm} />
-      ) : (
-        <>
-          <Trending transactions={totalTransactions_12h} />
-          <Dash
-            totalTransactions={totalTransactions}
-            totalUser={totalUser}
-            totalValueTx={totalValue}
-            totalTransactions_30d={totalTransactions_30d}
-            totalUser_30d={totalUser_30d}
-            totalValue_30d={totalValue_30d}
-            totalTransactions_7d={totalTransactions_7d}
-            totalUser_7d={totalUser_7d}
-            totalValue_7d={totalValue_7d}
-            totalTransactions_24h={totalTransactions_24h}
-            totalUser_24h={totalUser_24h}
-            totalValue_24h={totalValue_24h}
-          />
-          <Button onClick={openForm}>
-            Partners with us? Apply to be on the board
-          </Button>
-        </>
-      )}
-    </Container>
-  );
+  let contract = partner.filter((p) => p.contract).flatMap((p) => p.contract);
+  console.log(contract);
+  return <></>;
+  // return (
+  //   <Container>
+  //     <h1>Awesome NEAR</h1>
+
+  //     {form ? (
+  //       <Form closeForm={closeForm} />
+  //     ) : (
+  //       <>
+  //         <Trending transactions={totalTransactions_12h} />
+  //         <Dash
+  //           totalTransactions={totalTransactions}
+  //           totalUser={totalUser}
+  //           totalValueTx={totalValue}
+  //           totalTransactions_30d={totalTransactions_30d}
+  //           totalUser_30d={totalUser_30d}
+  //           totalValue_30d={totalValue_30d}
+  //           totalTransactions_7d={totalTransactions_7d}
+  //           totalUser_7d={totalUser_7d}
+  //           totalValue_7d={totalValue_7d}
+  //           totalTransactions_24h={totalTransactions_24h}
+  //           totalUser_24h={totalUser_24h}
+  //           totalValue_24h={totalValue_24h}
+  //         />
+  //         <Button onClick={openForm}>
+  //           Partners with us? Apply to be on the board
+  //         </Button>
+  //       </>
+  //     )}
+  //   </Container>
+  // );
 }
 
 export default App;
