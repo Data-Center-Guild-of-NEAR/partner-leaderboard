@@ -46,7 +46,7 @@ function App() {
       for (const n of array) {
         try {
           let res = await fetch(
-            'https://api.near-pulse.com/connect/result/' + n,
+            'https://api.near-pulse.com/result/' + n,
             requestOptions
           ).then((response) => response.json());
           if (n === 1) {
