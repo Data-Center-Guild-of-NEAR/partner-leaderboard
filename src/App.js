@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Container, Button } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 import './App.css';
 
 import Dash from './pages/Dash';
@@ -7,6 +7,9 @@ import Form from './pages/Form';
 import Trending from './pages/Trending';
 
 import { queryTokenValueTransacted } from './api/query';
+import { PulseHeader } from './components/PulseHeader';
+import PulseNavbar from './components/PulseNavbar';
+import { MainContainer } from './components/MainContainer';
 
 function App() {
   // open and close form
@@ -97,9 +100,11 @@ function App() {
     fetchResult();
   }, []);
   return (
-    <Container>
+    <MainContainer>
+    <PulseHeader>
       <h1>Awesome NEAR</h1>
-
+    </PulseHeader>
+    <PulseNavbar />
       {form ? (
         <Form closeForm={closeForm} />
       ) : (
@@ -124,7 +129,7 @@ function App() {
           </Button>
         </>
       )}
-    </Container>
+    </MainContainer>
   );
 }
 
