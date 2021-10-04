@@ -7,7 +7,7 @@ import Form from './pages/Form';
 import Trending from './pages/Trending';
 
 import { queryTokenValueTransacted } from './api/query';
-import { PulseHeader } from './components/PulseHeader';
+import { PulseHeader, PulseLogoSection } from './components/PulseHeader';
 import PulseNavbar from './components/PulseNavbar';
 import { MainContainer } from './components/MainContainer';
 
@@ -102,6 +102,9 @@ function App() {
   return (
     <MainContainer>
     <PulseHeader>
+      <PulseLogoSection>
+        <p>test</p>
+      </PulseLogoSection>
       <h1>Awesome NEAR</h1>
     </PulseHeader>
     <PulseNavbar />
