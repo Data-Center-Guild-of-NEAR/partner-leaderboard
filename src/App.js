@@ -7,9 +7,11 @@ import Form from './pages/Form';
 import Trending from './pages/Trending';
 
 import { queryTokenValueTransacted } from './api/query';
-import { PulseHeader, PulseLogoSection } from './components/PulseHeader';
+import { PulseHeader, PulseLogoSection, PulseLogo, PulseLogoText, PulseSearchBar, RegisterButton } from './components/PulseHeader';
 import PulseNavbar from './components/PulseNavbar';
 import { MainContainer } from './components/MainContainer';
+
+import Logo from '../src/assets/Vector.png'
 
 function App() {
   // open and close form
@@ -103,9 +105,13 @@ function App() {
     <MainContainer>
     <PulseHeader>
       <PulseLogoSection>
-        <p>test</p>
+        <PulseLogo src={Logo} />
+        <PulseLogoText>Pulse</PulseLogoText>
       </PulseLogoSection>
-      <h1>Awesome NEAR</h1>
+      <PulseSearchBar></PulseSearchBar>
+      <RegisterButton>
+        Register dApp
+      </RegisterButton>
     </PulseHeader>
     <PulseNavbar />
       {form ? (
