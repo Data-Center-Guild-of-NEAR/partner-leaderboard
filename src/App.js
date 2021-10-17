@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from 'react-bootstrap';
-import './App.css';
+
 
 import Dash from './pages/Dash';
 import Form from './pages/Form';
@@ -8,7 +8,7 @@ import Trending from './pages/Trending';
 
 import { queryTokenValueTransacted } from './api/query';
 import { PulseHeader, PulseLogoSection, PulseLogo, PulseLogoText, PulseSearchBar, RegisterButton } from './components/PulseHeader';
-import PulseNavbar from './components/PulseNavbar';
+import { PulseHeroSection, PulseHeroHeading, PulseHeroIntro, CreateWalletButton } from './components/PulseHeroSection';
 import { MainContainer } from './components/MainContainer';
 
 import Logo from '../src/assets/Vector.png'
@@ -113,7 +113,13 @@ function App() {
         Register dApp
       </RegisterButton>
     </PulseHeader>
-    <PulseNavbar />
+    <PulseHeroSection>
+      <PulseHeroHeading>Explore The NEAR Network</PulseHeroHeading>
+      <PulseHeroIntro>
+        NEAR is an open source platform that enables creators, communities, and financial markets. Create your wallet and begin your journey on NEAR
+      </PulseHeroIntro>
+      <CreateWalletButton>Create Wallet</CreateWalletButton>
+    </PulseHeroSection>
       {form ? (
         <Form closeForm={closeForm} />
       ) : (
