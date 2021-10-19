@@ -9,6 +9,7 @@ import Trending from './pages/Trending';
 import { queryTokenValueTransacted } from './api/query';
 import { PulseHeader, PulseLogoSection, PulseLogo, PulseLogoText, PulseSearchBar, RegisterButton } from './components/PulseHeader';
 import { PulseHeroSection, PulseHeroHeading, PulseHeroIntro, CreateWalletButton } from './components/PulseHeroSection';
+import { PulseStatsContainer, StatsSection, StatsHeader, StatsHeaderTitle, StatsButtonSection, StatsButton, NumberSection, StatsDetails } from './components/PulseStatsSection';
 import { MainContainer } from './components/MainContainer';
 
 import Logo from '../src/assets/Vector.png'
@@ -120,6 +121,25 @@ function App() {
       </PulseHeroIntro>
       <CreateWalletButton>Create Wallet</CreateWalletButton>
     </PulseHeroSection>
+    <PulseStatsContainer>
+      <StatsSection>
+        <StatsHeader>
+          <StatsHeaderTitle>Stats</StatsHeaderTitle>
+          <StatsButtonSection>
+            <StatsButton>24h</StatsButton>
+            <StatsButton>1w</StatsButton>
+            <StatsButton>1m</StatsButton>
+            <StatsButton>1y</StatsButton>
+          </StatsButtonSection>
+        </StatsHeader>
+        <NumberSection>
+          <StatsDetails title='Transactions' number='23,457' percent='3%'></StatsDetails>
+          <StatsDetails title='Transactions' number='23,457' percent='3%'></StatsDetails>
+          <StatsDetails title='Transactions' number='23,457' percent='3%'></StatsDetails>
+          <StatsDetails title='Transactions' number='23,457' percent='3%'></StatsDetails>
+        </NumberSection>
+      </StatsSection>
+    </PulseStatsContainer>
       {form ? (
         <Form closeForm={closeForm} />
       ) : (
