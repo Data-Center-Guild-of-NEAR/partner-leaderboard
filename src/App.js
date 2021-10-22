@@ -10,6 +10,7 @@ import { queryTokenValueTransacted } from './api/query';
 import { PulseHeader, PulseLogoSection, PulseLogo, PulseLogoText, PulseSearchBar, RegisterButton } from './components/PulseHeader';
 import { PulseHeroSection, PulseHeroHeading, PulseHeroIntro, CreateWalletButton } from './components/PulseHeroSection';
 import { PulseStatsContainer, StatsSection, StatsHeader, StatsHeaderTitle, StatsButtonSection, StatsButton, NumberSection, StatsDetails } from './components/PulseStatsSection';
+import PulseTrending from './components/pages/PulseTrending';
 import { MainContainer } from './components/MainContainer';
 
 import Logo from '../src/assets/Vector.png'
@@ -140,6 +141,7 @@ function App() {
         </NumberSection>
       </StatsSection>
     </PulseStatsContainer>
+    <PulseTrending />
       {form ? (
         <Form closeForm={closeForm} />
       ) : (
