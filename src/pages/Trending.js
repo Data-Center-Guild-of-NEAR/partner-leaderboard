@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ReactEcharts from 'echarts-for-react';
 import { Container, Button } from 'react-bootstrap';
-import Partner from '../data/partner-list.json';
+import Partner from '../data/new-partner-list.json';
 
 function Trending({ transactions }) {
   let display_list = Partner.filter((p) => p.contract !== undefined);
